@@ -1,0 +1,29 @@
+# Ficheiros do GNS3
+# Ignorar discos e estados das máquinas emuladas
+ProjetoRedes-2024118471_2024116801/project-files/dynamips/
+ProjetoRedes-2024118471_2024116801/project-files/qemu/
+ProjetoRedes-2024118471_2024116801/project-files/virtualbox/
+ProjetoRedes-2024118471_2024116801/project-files/docker/
+ProjetoRedes-2024118471_2024116801/project-files/vpcs/
+snapshots/
+*.lock
+
+
+# Wireshark / Capturas
+# Ignorar capturas de pacotes que o Yersinia/OSPF vão gerar
+*.pcapng
+*.pcap
+
+# Lixo de Sistemas Operativos
+.DS_Store
+Thumbs.db
+
+# Relatório 
+# Ignorar os subprodutos e logs da compilação de texto
+*.aux
+*.log
+*.out
+*.toc
+*.gz
+*.fls
+*.fdb_latexmk
