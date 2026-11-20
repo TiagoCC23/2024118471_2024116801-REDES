@@ -1,0 +1,2094 @@
+
+--------------- PnP Tech Summary (1) ------------------
+
+------------------ show pnp time ------------------
+
+Current Clock Time: [17:54:51 WET Fri Nov 20 2026]
+PnP Uptime: 275054 ms, Device Uptime: 276 sec, ClockSet:No
+PnP Started after system had restarted: 946 ms
+	1. Setup Start PT: 17053 ms, FirstPT: 17053 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=3, pname=Init, time=17:50:33 WET Fri Nov 20 2026]
+	2. Setup Abort PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	3. Load Startup Config PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	4. Load Other Config PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	5. Init Restarted PT: 19070 ms, FirstPT: 19070 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=3, pname=Init, time=17:50:35 WET Fri Nov 20 2026]
+	6. Initial Banner PT: 24073 ms, FirstPT: 24073 ms, LastPT: 24073 ms, Notified:2, Annotation:[pid=49, pname=TTY Background, time=17:50:40 WET Fri Nov 20 2026]
+	7. Press RETURN PT: 24073 ms, FirstPT: 24073 ms, LastPT: 24073 ms, Notified:2, Annotation:[pid=49, pname=TTY Background, time=17:50:40 WET Fri Nov 20 2026]
+	8. Auto Install Init PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	9. Auto Install Start PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	10. Auto Install Stop PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	11. Stdio Deallocate PT: 17089 ms, FirstPT: 17089 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=197, pname=Setup, time=17:50:33 WET Fri Nov 20 2026]
+	12. Write Memory Start PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	13. Write Memory Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	14. Write Erase PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	15. Config Change PT: 38505 ms, FirstPT: 15135 ms, LastPT: 38503 ms, Notified:5, Annotation:[pid=356, pname=PnP Agent Discovery, time=17:50:54 WET Fri Nov 20 2026]
+	16. PnP Subsystem Init PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=3, pname=Init, time=17:50:16 WET Fri Nov 20 2026]
+	17. PnP Discovery Start PT: 25 ms, FirstPT: 25 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=356, pname=PnP Agent Discovery, time=17:50:16 WET Fri Nov 20 2026]
+	18. PnP Discovery Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	19. PnP Profile Create PT: 24493 ms, FirstPT: 24493 ms, LastPT: 0 ms, Notified:1, Annotation:[pnp_cco_profile]
+	20. PnP Profile Delete PT: 38503 ms, FirstPT: 38503 ms, LastPT: 0 ms, Notified:1, Annotation:[pnp_cco_profile]
+	21. PnP Save Startup Config Start PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	22. PnP Save Startup Config Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	23. PnP Certificate Changed PT: 38506 ms, FirstPT: 38506 ms, LastPT: 0 ms, Notified:1, Annotation:[-]
+	24. PnP Cert-Service Failed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	25. PnP Config-Upgrade Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	26. PnP Config-Upgrade Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	27. PnP Config-Upgrade Failed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	28. PnP CLI-Config Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	29. PnP CLI-Config Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	30. PnP CLI-Config Failed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	31. PnP Image-Install Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	32. PnP Image-Install Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	33. PnP Image-Install Failed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	34. PnP Script Loaded PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	35. PnP Script Aborted PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	36. PnP Script Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	37. PnP TCL Script Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	38. PnP Python Script Done PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	39. PKI Init-Wait Started PT: 24032 ms, FirstPT: 24032 ms, LastPT: 0 ms, Notified:1, Annotation:[pnpa_cco_ipv4_discovery]
+	40. PKI Init-Wait Done PT: 24032 ms, FirstPT: 24032 ms, LastPT: 0 ms, Notified:1, Annotation:[pnpa_cco_ipv4_discovery]
+	41. PKI Init-Wait Failed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	42. PnP Monitor Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	43. PnP Monitor Stopped PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	44. PnP Set-Clock Started PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	45. PnP Set-Clock Stopped PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	46. PnP State Changed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	47. PnP State Unclaimed PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	48. PnP State Provisioned PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	49. PnP State Error PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	50. PnP Block Reload-Info PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	51. PnP Unblock Reload-Info PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	52. PnP Stop Reload-Info PT: 26043 ms, FirstPT: 26043 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=89, pname=XEP_pnp_cco_profile, time=17:50:42 WET Fri Nov 20 2026]
+	53. PnP Ignore Reload-Info PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	54. System Reload-Scheduled PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+	55. System Reload-Cancelled PT: 0 ms, FirstPT: 0 ms, LastPT: 0 ms, Notified:0, Annotation:[-]
+
+System possibly restarted at 17:50:15 WET Fri Nov 20 2026
+Elapsed time between System-Restart and Press-RETURN: 25019 ms
+
+------------------ show pnp version ------------------
+
+PnP Schema Version: 1.0, Baseline Tracking: rel35.1.20201014
+Device UDI: PID:Unix,VID:,SN:2048006
+UDI Checking: Yes
+SID: AuthOnly:No, MustValidate:No, MustRenew:No
+Security Enforced: No, PostReloadPriv'd Profile: N/A
+Startup Config: LoadingDone: Yes, FoundAtBootup: No, NowPresent: No
+SUDI Certificate: N/A
+Device SUDI: N/A
+
+
+------------------ show pnp capabilities ------------------
+
+PnP Capability (1): cisco:pnp:backoff
+PnP Capability (2): cisco:pnp:capability
+PnP Capability (3): cisco:pnp:certificate-install
+PnP Capability (4): cisco:pnp:cli-config
+PnP Capability (5): cisco:pnp:cli-exec
+PnP Capability (6): cisco:pnp:config-upgrade
+PnP Capability (7): cisco:pnp:device-auth
+PnP Capability (8): cisco:pnp:device-id-cert
+PnP Capability (9): cisco:pnp:device-info
+PnP Capability (10): cisco:pnp:device-setup
+PnP Capability (11): cisco:pnp:eem-proxy
+PnP Capability (12): cisco:pnp:fault
+PnP Capability (13): cisco:pnp:file-transfer
+PnP Capability (14): cisco:pnp:image-install
+PnP Capability (15): cisco:pnp:interface-info
+PnP Capability (16): cisco:pnp:licensing
+PnP Capability (17): cisco:pnp:monitor
+PnP Capability (18): cisco:pnp:napp
+PnP Capability (19): cisco:pnp:napp-notify
+PnP Capability (20): cisco:pnp:napp-server
+PnP Capability (21): cisco:pnp:redirection
+PnP Capability (22): cisco:pnp:reload
+PnP Capability (23): cisco:pnp:script
+PnP Capability (24): cisco:pnp:smu
+PnP Capability (25): cisco:pnp:snmp
+PnP Capability (26): cisco:pnp:snooping
+PnP Capability (27): cisco:pnp:syslog
+PnP Capability (28): cisco:pnp:tag
+PnP Capability (29): cisco:pnp:token-auth
+PnP Capability (30): cisco:pnp:topology
+PnP Capability (31): cisco:pnp:work-info
+PnP Feature (1): cisco:pnp:certificate-checksum-filesize
+PnP Feature (2): cisco:pnp:cco-backoff
+PnP Feature (3): cisco:pnp:config-inline
+PnP Feature (4): cisco:pnp:config-rollback
+PnP Feature (5): cisco:pnp:config-upgrade-checksum-filesize
+PnP Feature (6): cisco:pnp:device-mode-info
+PnP Feature (7): cisco:pnp:filetransfer-checksum-filesize
+PnP Feature (8): cisco:pnp:image-install-checksum-filesize
+PnP Feature (9): cisco:pnp:monitor-ack-notifications
+PnP Feature (10): cisco:pnp:monitor-clear-all-watches
+PnP Feature (11): cisco:pnp:monitor-show-summary
+PnP Feature (12): cisco:pnp:pnp-reset
+PnP Feature (13): cisco:pnp:python-scripting
+PnP Feature (14): cisco:pnp:script-arguments
+PnP Feature (15): cisco:pnp:script-checksum-filesize
+PnP Feature (16): cisco:pnp:script-inline
+PnP Feature (17): cisco:pnp:script-service-log
+PnP Feature (18): cisco:pnp:service-log
+PnP Feature (19): cisco:pnp:smu-checksum-filesize
+PnP Feature (20): cisco:pnp:tcl-scripting
+PnP Feature (21): cisco:pnp:stack-info
+PnP Feature (22): cisco:pnp:stack-renumbering
+PnP Feature (23): cisco:pnp:beacon-info
+PnP Feature (24): cisco:pnp:vbond-controller
+PnP Feature (25): cisco:pnp:image-verify
+PnP Feature (26): cisco:pnp:wlc-install-mode
+PnP Feature (27): cisco:pnp:auto-mode-change-to-install-mode
+PnP Feature (28): cisco:pnp:wlc-model-based-image-upgrade
+PnP Feature (29): cisco:pnp:install-commit-remove
+PnP Feature (30): cisco:pnp:file-transfer-notification-v3
+PnP Feature (31): cisco:pnp:multi-redirection
+PnP Feature (32): cisco:pnp:cco-device-auth-mitm-check
+PnP Feature (33): cisco:pnp:hello-source-interface
+PnP Feature (34): cisco:pnp:service-cli-enable-act2-sudi
+
+---------- show pnp reload info tracking -------------
+
+Reload Reason Code:2408, Msg:[Unknown reason], IgnoreChecking:[No]
+Encoding Count:1, FirstEncoder=[pid=356, pname=PnP Agent Discovery] at [17:50:41 WET Fri Nov 20 2026], LastEncoder=[pid=356, pname=PnP Agent Discovery] at [17:50:41 WET Fri Nov 20 2026]
+Block Count:0, FirstBlocker:[-] at [-], LastBlocker:[-] at [-]
+Unblock Count:0, FirstUnblocker:[-] at [-], LastUnblocker:[-] at [-]
+Stop Count:1, FirstStopper:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026], LastStopper:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026]
+
+pnp reload info stats
+1. By [other-profiles]: Encoded:0, Acked:0, NowStopped:No, Blocked:0, Unblocked:0, NowBlocked:No
+2. By [PnP-Discovery-Process]: Encoded:1, Acked:0, NowStopped:No, Blocked:0, Unblocked:0, NowBlocked:No
+3. By [pnp-zero-touch]: Encoded:0, Acked:0, NowStopped:No, Blocked:0, Unblocked:0, NowBlocked:No
+4. By [pnp_cco_profile]: Encoded:0, Acked:1, NowStopped:Yes, Blocked:0, Unblocked:0, NowBlocked:No
+5. By [pnp_redirection_profile]: Encoded:0, Acked:0, NowStopped:No, Blocked:0, Unblocked:0, NowBlocked:No
+
+------------------ show pnp udi tracking ---------
+
+Best UDI:[-], use-count=0, first-set-by=[-]
+Good UDI:[PID:Unix,VID:,SN:2048006], use-count=31, first-set-by=[pid=356, pname=PnP Agent Discovery, time=17:50:16 WET Fri Nov 20 2026]
+Incomplete UDI:[], first-set-by=[pid=356, pname=PnP Agent Discovery, time=17:50:16 WET Fri Nov 20 2026]
+UDI by Master Registry:[], first-get-by=[-]
+UDI by Entity MIBS:[], first-get-by=[-]
+UDI by Platform Registry:[PID:Unix,VID:,SN:2048006], first-get-by=[pid=356, pname=PnP Agent Discovery, time=17:50:16 WET Fri Nov 20 2026]
+
+SUDI:[], use-count=0, first-get-by=[-]
+Platform PID:[Unix]
+MotherBoard PID:[-]
+Platform VID:[-]
+
+------------- show pnp device mode tracking ---------
+
+Initial Device Mode:[autonomous]
+New Device Mode:[autonomous]
+Registries: Device-Mode-Detected:No, Abort-Discovery:No, Controller-Managed:No
+Is-Controller-Managed:No, Must-Reload-To-Change:No
+SDWan Discovery Started:No
+Mode Reset Count:2, Last Reset:[17:50:16 WET Fri Nov 20 2026]
+Mode Change Total:0, OK:0, Failed:0, Last Changed:[]
+
+------------------ show pnp image information ---------
+
+Version=[17.15.1]
+Image File=[unix:/home/tiago/GNS3/images/IOU/x86_64_crb_linux-adventerprisek9-ms], Hash=[-], Size=0 bytes
+ReturnToRomReason=[unknown reload cause - suspect boot_data[BOOT_COUNT] 0x9, BOOT_COUNT 0, BOOTDATA 19]
+SystemReloadReason=[Unknown reason]
+NextReloadReason: Code=[PnP Service Info 2408], Msg=[Unknown reason]
+Diag Variable=[-]
+Boot Variable=[-], LdrVariable=[-]
+Config Variable=[-], Register=[0x0], RegNextBoot=[]
+
+PnP Image-Install Registries:
+	Must-Use-Image-Installer:No
+	Platform-Install-Image-Ext:No
+	Platform-Installer-Name:-
+	Digital-Signature-Verify:No
+	Startup-Boot-Config:No
+	Get-Rommon-Boot-Var:No
+	Set-Rommon-Boot-Var:No
+
+Total Image-Install Requests Serviced: 0
+
+------------------ show pnp hardware info ---------
+
+Host name:[router]
+Vendor:[Linux]
+Platform name:[Unix]
+Processor type:[i686]
+Hardware revision string:[-]
+Main memory size in bytes: 820154608
+I/O memory size in bytes: 0
+Board ID:[2048006]
+Board rework:[-]
+Processor revision:[-]
+Midplane revision:[-]
+Device Type:[-]
+Location:[-]
+
+------------------ show pnp file system info ---------
+
+FS Query: Count:2, Elapsed Time:0, Last Time:0, Worst Time:0 sec
+File System: Total:2, Last Total:2
+PNP-FS-UTIL (3): status=[pnp fs-info], run-by=[pid=356, pname=PnP Agent Discovery, time=17:54:51 WET Fri Nov 20 2026], fs-types=3139, fs-count=2, fs-entry=4, fs-exit=4, fs-files=0, fs-fail=2, fs-skip=2, fs-queued=2, worst-fs-walk-path=[-](worst time=0 sec), total-dir..-entry=0, -exit=0, -fail=0, -skip=0, active-fsid=12, last-fsid=11, largest-writeable-free..-1st-fs=[unix:](free-bytes=2147479552), -2nd-fs=[-](free-bytes=-), get-size..-total=6, -ok=6, -fail=0, err=0 [-], (elapsed-time=0 sec)
+
+Filesystem (1) name=[nvram], type=[nvram], local-buffer-size-in-bytes:[131072], free-size-in-bytes:[128972], read-flag:1, write-flag:0, worst-dir-walk-path=[](worst-time=0 sec), dir-entry=0, dir-exit=0, (elapsed-time=0 sec)
+
+Filesystem (2) name=[unix], type=[disk], local-buffer-size-in-bytes:[2147479552], free-size-in-bytes:[2147479552], read-flag:1, write-flag:1, worst-dir-walk-path=[](worst-time=0 sec), dir-entry=0, dir-exit=0, (elapsed-time=0 sec)
+
+------------------ show pnp profile info ---------
+
+PnP Profile: Count:0
+
+------------------ show pnp stack information ---------
+
+Stackable:No, Registry GetStackUDI:No, GetStackInfo:No, StackSupportGap:No
+
+------------------ show pnp smu info ------------------
+
+SMU Service Registry:No, Total:0, OK:0, Fail:0
+Last-Svc-OK:No, Last-Failure:[-]
+
+SMU-Add: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Activate: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Commit: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Deactivate: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Remove: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Rollback: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+SMU-Unsupported: Total:0, OK:0, Fail:0
+	OP-OK:No, Src-Path:[-], Bundle-Name:[-]
+	Last-OP-OK:No, Last-Src-Path:[-], Last-Bundle-Name:[-]
+
+
+--------------- show pnp server tracking ---------------
+
+Server Issues: OK-to-ignore:Yes, Total Ignored:0
+Server Possible Retry Count:0, Critical Issues Count:0
+Last Issue Outstanding:No, Found on Profile:[-]
+
+-------------- show pnp config tracking ---------------
+
+Config Monitor: Off, Switched: 2
+Config Control Level:[Basic-Check], Last-ConfControl:[Basic-Check]
+Config Retry: 300, Interval: 1000 ms
+Config Reserved By:[-], Last-ConfReserve:[-]
+Startup Config: Not Found, Write Started: 0, Done: 0, PID: 0, Last-PID: 0
+Running Config: Not Locked, Safe Now: Yes, CLI Changed: 6, Bulk Count: 5, Last Delta: 0, PID: 356, Last-PID: 356
+Config Ext Service: Data: No, File: No
+PnP Discovery Started: No
+Redirection Status: Not Running
+
+-------------- show pnp wait time info ---------------
+
+(0) [Discovery-Auto-Install-Wait]: Time (Default:300, Current:300, Last:0 sec), Retry (Current:0, Last:0)
+(1) [Discovery-Method-Interval-Wait]: Time (Default:1, Current:1, Last:0 sec), Retry (Current:0, Last:0)
+(2) [Discovery-Loop-Interval-Wait]: Time (Default:10, Current:10, Last:0 sec), Retry (Current:0, Last:0)
+(3) [Discovery-NAPP-Wait]: Time (Default:60, Current:60, Last:0 sec), Retry (Current:0, Last:0)
+(4) [Discovery-Hello-Wait]: Time (Default:10, Current:10, Last:0 sec), Retry (Current:0, Last:0)
+(5) [Discovery-NTP-Wait]: Time (Default:30, Current:30, Last:0 sec), Retry (Current:0, Last:0)
+(6) [Discovery-SNTP-Wait]: Time (Default:30, Current:30, Last:0 sec), Retry (Current:0, Last:0)
+(7) [Work-Req-Local-Wait]: Time (Default:5, Current:5, Last:0 sec), Retry (Current:0, Last:0)
+(8) [Work-Req-Proxy-Wait]: Time (Default:6, Current:6, Last:0 sec), Retry (Current:0, Last:0)
+(9) [Work-Req-Abnormal-Wait]: Time (Default:60, Current:60, Last:0 sec), Retry (Current:0, Last:0)
+(10) [PnP-Resp-Ack-Wait]: Time (Default:30, Current:30, Last:0 sec), Retry (Current:6, Last:0)
+(11) [Service-Hello-Response-Wait]: Time (Default:90, Current:90, Last:0 sec), Retry (Current:0, Last:0)
+(12) [Service-Hello-Unlock-Wait]: Time (Default:10, Current:10, Last:0 sec), Retry (Current:0, Last:0)
+(13) [Service-Backoff-Minimum-Local-Wait]: Time (Default:60, Current:60, Last:0 sec), Retry (Current:0, Last:0)
+(14) [Service-Backoff-Minimum-Proxy-Wait]: Time (Default:61, Current:61, Last:0 sec), Retry (Current:0, Last:0)
+(15) [Service-Cert-Install-Wait]: Time (Default:10, Current:10, Last:0 sec), Retry (Current:2, Last:0)
+(16) [Service-Config-Retry-Wait]: Time (Default:3, Current:3, Last:0 sec), Retry (Current:10, Last:0)
+(17) [Service-Config-Rollback-Wait]: Time (Default:5, Current:5, Last:0 sec), Retry (Current:8, Last:0)
+(18) [Message-HTTP-Flush-Wait]: Time (Default:20, Current:20, Last:0 sec), Retry (Current:0, Last:0)
+(19) [Transport-First-Switchover]: Time (Default:180, Current:180, Last:0 sec), Retry (Current:0, Last:0)
+(20) [Discovery-CCO-Short-Wait]: Time (Default:180, Current:180, Last:0 sec), Retry (Current:0, Last:0)
+(21) [Discovery-CCO-Long-Wait]: Time (Default:300, Current:300, Last:0 sec), Retry (Current:0, Last:0)
+(22) [Discovery-CCO-Backoff-Wait]: Time (Default:60, Current:60, Last:0 sec), Retry (Current:0, Last:0)
+(23) [Discovery-CCO-Resp_Ack-Wait]: Time (Default:10, Current:10, Last:0 sec), Retry (Current:0, Last:0)
+(24) [Discovery-CCO-Check-Interval]: Time (Default:3, Current:3, Last:0 sec), Retry (Current:0, Last:0)
+(25) [Service-Backoff-Warning-Limit]: Time (Default:86400, Current:86400, Last:0 sec), Retry (Current:3, Last:0)
+(26) [Switf-UT-Default-Wait]: Time (Default:6, Current:6, Last:0 sec), Retry (Current:0, Last:0)
+
+-------------- show pnp lock info -------------------
+
+PnP Bypass Lock Control: No
+PnP Config Locks: OK:1, Failed:0, Bypassed:0
+PnP Config Unlocks: OK:0, Bypassed:0
+PnP Config NowLocked: Yes, By:(pid=356)[show-pnp-tech], LastLockedBy:(pid=0)[-], LastUnlockedBy:[-]
+PnP Exec Locks: OK:2, Failed:0, Bypassed:0
+PnP Exec Unlocks: OK:1, Bypassed:0
+PnP Exec NowLocked: Yes, By:(pid=356)[show-pnp-tech], LastLockedBy:(pid=356)[show-pnp-tech-api], LastUnlockedBy:[show-pnp-tech-api]
+
+Configuration mode is not locked
+
+-------------- show pnp ha tracking ---------------
+
+HA Presence Checking: No, RF Support Yes
+RF Op-Mode Registry: No, State: 0
+Config-Sync Registry: No, State: -
+Standby Notify Hot: 0, Cold: 0
+
+-------------- show pnp idb info ---------------
+
+IPv4 idb-get-registry:Yes, resolve-registry:Yes, resolved-ok:90, -failed:2, -bypassed:0, -last-interface:[Ethernet0/2] by [pid=356, pname=PnP Agent Discovery, time=17:54:39 WET Fri Nov 20 2026], -first-interface:[Ethernet0/2] by [pid=356, pname=PnP Agent Discovery, time=17:50:40 WET Fri Nov 20 2026]
+
+IPv6 idb-get-registry:Yes, resolve-registry:Yes, resolved-ok:0, -failed:17, -bypassed:0, -last-interface:[-] by [-], -first-interface:[-] by [-]
+
+-------------- show pnp bootstrap tracking ---------------
+
+Bootstrap Handlers Count:12 
+Notifications: Inited:1, Started:18, Stopped:18, Terminated:0 
+LastTermination By:0.[PnP Discovery Manager], Reason:0.[-] 
+PrevLastTermination By:0.[PnP Discovery Manager], Reason:0.[-] 
+LastDiscoverySuccessBy:0.[PnP-DHCP-IPv6], Profile:[-], Interface:[-], URL:[https://devicehelper.cisco.com.:443/pnp/HELLO]
+
+Interface Bringup: Total:11
+LastBringup By:2.[Auto Installer], InterfaceName:[Ethernet0/2]
+PrevLastBringup By:2.[Auto Installer], InterfaceName:[Ethernet0/1]
+
+Handler.0:[PnP Discovery Manager]: Inited:1, Started:18, Stopped:18, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:5.[Config Wizard], PrevLastReason:2.[Discovery Failed]
+  Interface Bringup: Issued:0, Noted:0, Ignored:11
+
+Handler.1:[Config Wizard]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.2:[Auto Installer]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.3:[Smart Installer]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.4:[USB Loader]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.5:[CNS Discovery Agent]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.6:[WebUI Installer]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.7:[SMI Director]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.8:[AP Installer]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.9:[AN Installer]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.10:[PnP Redirection]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Handler.11:[Alternate Startup Config]: Inited:0, Started:0, Stopped:0, OKToRun:Yes, Running:No
+  Terminate Now:No, Issued:0, Noted:0, Ignored:0, LastReason:0.[-], PrevLastReason:0.[-]
+  Interface Bringup: Issued:0, Noted:0, Ignored:0
+
+Discovery Method Count:15
+
+Method.0:[PnP-DHCP-IPv6-discovery]: OKToRun:Yes
+Method.1:[PnP-DHCP-IPv4-discovery]: OKToRun:Yes
+Method.2:[PnP-DNS-IPv6-discovery]: OKToRun:Yes
+Method.3:[PnP-DNS-IPv4-discovery]: OKToRun:Yes
+Method.4:[PnP-Platform-discovery]: OKToRun:No
+Method.5:[PnP-CCO-IPv6-discovery]: OKToRun:Yes
+Method.6:[PnP-CCO-IPv4-discovery]: OKToRun:Yes
+Method.7:[PnP-WebUI-discovery]: OKToRun:No
+Method.8:[PnP-NAPP-discovery]: OKToRun:No
+Method.9:[PnP-SMI-discovery]: OKToRun:No
+Method.10:[PnP-4G-CCO-IPv4-discovery]: OKToRun:No
+Method.11:[PnP-4G-CCO-IPv6-discovery]: OKToRun:No
+Method.12:[PnP-VBOND-ONPREM-ZTP-IPV4-discovery]: OKToRun:No
+Method.13:[PnP-VBOND-ONPREM-ZTP-IPV6-discovery]: OKToRun:No
+Method.14:[PnP-4G-APN-IPv4-discovery]: OKToRun:No
+-------------- show pnp script tracking ---------------
+
+Script Run: loaded=0, aborted=0, started=0, done=0 (tcl=0, python=0)
+
+script-buffer-exec: ok=0, failed=0, tcl=0, python=0, unknown=0, last-script: file=[-], type=[unknown], arg=[-], log=[-], status:failed (0), run-by=[-], first-script: file:[-], run-by=[-]
+
+script-file-exec: ok=0, failed=0, tcl=0, python=0, unknown=0, last-script: file=[-], type=[unknown], arg=[-], log=[-], status:failed (0), run-by=[-], first-script: file:[-], run-by=[-]
+
+script-python-exec: ok=0, failed=0, tcl=0, python=0, unknown=0, last-script: file=[-], type=[unknown], arg=[-], log=[-], status:failed (0), run-by=[-], first-script: file:[-], run-by=[-]
+
+script-tcl-exec: ok=0, failed=0, tcl=0, python=0, unknown=0, last-script: file=[-], type=[unknown], arg=[-], log=[-], status:failed (0), run-by=[-], first-script: file:[-], run-by=[-]
+
+
+------------------ show pnp discovery -----------------
+
+
+Auto-Install: Started: 1, Done: 0, PID: 0, Last-PID: 0
+DHCP Auto-Install: Registry: Yes, Running: No, IP-Resolved: Yes
+Network Download: Enabled: No, Loaded: No
+Host Download: Enabled: No, Loaded: No
+PnP Auto-Wait: Complete: Yes, BT-Stopped: Yes, PID: -1, Last-PID: 372
+
+PnP Auto-Install IPv6 control:0, lastControl:0, TotalValidated:11
+	Auto Interface Bringup On:No, Last:No
+	Auto Unicast Routing On:No, Last:No, Enabled:No, Check:11, Ignored:11
+	Auto IPv6 Enable On:No, Last:No, Enabled:No, Check:11, Ignored:11
+	Auto Address DHCP On:No, Last:No, Enabled:No, Check:11, Ignored:11
+		DHCP Address Monitor Added:No, Notified:0, LastInterfaceNotified:[-]
+	Auto Address Auto Config Default On:No, Last:No, Enabled:No, Check:11, Ignored:11
+	Auto DHCP Request Vendor On:No, Last:No, Enabled:No, Check:11, Ignored:11
+	Auto DNS Set Domain On:No, Last:No
+
+Discovery IPv4 Goes First:Yes, IPv6 OKtoRun:Yes
+Time in sec: Method-Interval:1, Loop-Interval:10, Hello-Wait:10, NAPP-Wait:60 
+VRF Checked:No, Name:[-] 
+
+----------- active pnp discovery methods (6) -----------
+
+PnP Discovery Method(1): PnP DHCP ipv4 Discovery (43): status=[Discovery failed], run-by=[pid=356, pname=PnP Agent Discovery, time=17:54:35 WET Fri Nov 20 2026], discovery-state=[Unknown], method-timeout:0 sec, retry-per-loop:0, max-loop-allowed:-1, ok-to-report:Yes, profile-name=[], transport=[], err=920 [dhcp option not validated], (elapsed-time=0 sec)
+
+PnP Discovery Method(2): PnP DHCP ipv6 Discovery - Never Run
+PnP Discovery Method(3): PnP DNS ipv4 Discovery (44): status=[Discovery failed], run-by=[pid=356, pname=PnP Agent Discovery, time=17:54:37 WET Fri Nov 20 2026], discovery-state=[Unknown], method-timeout:0 sec, retry-per-loop:0, max-loop-allowed:-1, ok-to-report:Yes, profile-name=[], transport=[], err=918 [dns dhcp failed], (elapsed-time=0 sec)
+
+PnP Discovery Method(4): PnP DNS ipv6 Discovery - Never Run
+PnP Discovery Method(5): PnP CCO ipv4 Discovery (45): status=[Discovery failed], run-by=[pid=356, pname=PnP Agent Discovery, time=17:54:39 WET Fri Nov 20 2026], discovery-state=[Unknown], method-timeout:60 sec, retry-per-loop:0, max-loop-allowed:-1, ok-to-report:Yes, profile-name=[], transport=[], err=911 [cco waiting], (elapsed-time=0 sec)
+
+PnP Discovery Method(6): PnP CCO ipv6 Discovery - Never Run
+PnP Discovery: PFD:[-], Run Count: 18, Status: Finished, Last Run: Unknown
+
+PnP DHCP IPv6 Discovery: InterfaceName:[-] Op17-Text:[-], Last-Op17-Text:[-]
+PnP DHCP IPv4 Discovery: InterfaceName:[-] Op43-Text:[-], Last-Op43-Text:[-]
+
+--------------- show pnp dns info ---------------
+
+PnP Server:[pnpserver.domain], Resolved:No (OK=0, failed=0), IPv6:No
+	first pnp-server:[pnpserver.domain], resolved-addr:[-] on [-] by [-]
+	second pnp-server:[pnpserver.domain], resolved-addr:[-] on [-] by [-]
+	last pnp-server:[pnpserver.domain], resolved-addr:[-] on [-] by [-]
+	unresolved pnp-server:[pnpserver.domain] on [-] by [-]
+
+Domain-Name cache: notified:0, active:[-] on [-] set-by:[-], 
+	first domain-name:[-] on [-] set-by:[-]
+	second domain-name:[-] on [-] set-by:[-]
+	last domain-name:[-] on [-] set-by:[-]
+
+DNS-Server cache: notified:0, active:[-] (len=0) set-by:[-]
+	first dns-server: [-] (len=0) set-by:[-]
+	second dns-server: [-] (len=0) set-by:[-]
+	last dns-server: [-] (len=0) set-by=[-]
+
+DNS Resolution Stats:
+	Interface Lookup: Total:240, Skipped:225, OK:0, Failed:0
+	Resolved Count: Total:0, IPv4:0, IPv6:0, IPany:0
+	Unresolved Count: Total:15, IPv4:15, IPv6:0, IPany:0
+	Domain Resolved:0, Unresolved:15
+	Hostname Resolved:0, Unresolved:0
+	Trustpool Resolved:0, Unresolved:0
+	NTP Server Resolved:0, Unresolved:0
+
+PnP CCO Discovery: Timer Running: No
+CCO SID:[25051f52-2827-4c5e-868a-918830c944cf], LastSID:[-], NullSIDCount:0
+CCO Request Check:[CCO-Current-Request-Only]
+CCO Trustpool URL:[http://devicehelper.cisco.com./ca/trustpool]
+CCO PnP Server:[devicehelper.cisco.com.], Resolved:Yes (OK=1, failed=0), IPv6:No, 
+	last-cco-server-addr:[52.205.197.159] by [pid=356, pname=PnP Agent Discovery, time=17:50:40 WET Fri Nov 20 2026]
+	first-cco-server-addr:[52.205.197.159] by [pid=356, pname=PnP Agent Discovery, time=17:50:40 WET Fri Nov 20 2026]
+	second-cco-server-addr:[-] by [-]
+
+CCO NTP Server:[time-pnp.cisco.com.], Resolved:No, IPv6:No
+DNS Resolution Stats:
+	Interface Lookup: Total:0, Skipped:0, OK:0, Failed:0
+	Resolved Count: Total:1, IPv4:1, IPv6:0, IPany:0
+	Unresolved Count: Total:0, IPv4:0, IPv6:0, IPany:0
+	Domain Resolved:0, Unresolved:0
+	Hostname Resolved:1, Unresolved:0
+	Trustpool Resolved:0, Unresolved:0
+	NTP Server Resolved:0, Unresolved:0
+
+PnP Discovery type          : DHCP_IPV6
+IDB ready                     : No
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+DHCP attempts                 : 0
+DHCP vso present              : No
+PNP server reachable          : No
+PNP server id bypass passed   : No
+DHCP 4g skip                  : 0
+
+PnP Discovery type          : DHCP_IPV4
+IDB ready                     : Yes
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+DHCP attempts                 : 0
+DHCP vso present              : No
+PNP server reachable          : No
+PNP server id bypass passed   : No
+DHCP 4g skip                  : 0
+
+PnP Discovery type          : DNS_IPV6
+IDB ready                     : No
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+DNS attempts                  : 0
+Domain name present           : No
+PNP server reachable          : No
+DNS 4g skip                   : 0
+PNP self signed flow          : No
+PNP trustpool flow            : No
+PNP id check bypass passed    : No
+
+PnP Discovery type          : DNS_IPV4
+IDB ready                     : Yes
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+DNS attempts                  : 0
+Domain name present           : No
+PNP server reachable          : No
+DNS 4g skip                   : 0
+PNP self signed flow          : No
+PNP trustpool flow            : No
+PNP id check bypass passed    : No
+
+PnP Discovery type          : CCO_IPV6
+IDB ready                     : No
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+CCO attempts                  : 0
+DNS resolved                  : No
+DNS attempts                  : 0
+CCO reachable                 : No
+CCO redirect success          : No
+CCO redirect attempts         : 0
+CCO redirect backoffs         : 0
+CCO 4g skip                   : 0
+
+PnP Discovery type          : CCO_IPV4
+IDB ready                     : Yes
+Trust pool validated          : No
+Trust pool validate attempts  : 0
+NTP synced                    : No
+NTP sync attempts             : 0
+Bundle downloaded             : No
+Bundle download attempts      : 0
+CCO attempts                  : 1
+DNS resolved                  : Yes
+DNS attempts                  : 1
+CCO reachable                 : Yes
+CCO redirect success          : No
+CCO redirect attempts         : 1
+CCO redirect backoffs         : 1
+CCO 4g skip                   : 0
+
+
+PnP NAPP Discovery: Running: No
+PnP NAPP PID: pxd: -1, pxc: -1, pxc_xmt: -1
+
+-------------- show pnp webui tracking ---------------
+WebUI Discovery: Enabled: No, Allowed: No
+WebUI Config: Pool: No, Count: 0, IP: No, DHCP: No, DNS: No, HTTP: No
+User Config Pushed: No, Write-Mem Count: 0
+WebUI CLI:
+	Pool-Remove: []
+	Pool-Revert: []
+	Pwd-Config-Add: Length=0
+	Pwd-Config-Remove: []
+	Device-Config-Add: []
+	Device-Config-Remove: []
+
+
+------------------ show pnp ca bundles ------------------
+
+PnP NTP/SNTP Sync Total:0, Ignored:0, OK:0, Failed:0
+PnP Trustpool Backup Total:0, OK:0, Failed:0
+	Validated:0, Invalidated:0
+PnP Trustpool Install Total:0, OK:0, Failed:0
+PnP CA Bundle Validation Total:0, OK:0, Failed:0
+PnP CA Bundle Clenup Total:1, OK:1, Failed:0
+
+PnP CCO Trustpool: OKToBackup:Yes
+	Backup Total:0, OK:0, Failed:0
+	Validated=0, Invalidated:0, Tolerance=10
+	Current Backup Size:0 bytes, FilePath:[-], Source:[-]
+	Last Backup Size:0 bytes, FilePath:[-], Source:[-]
+
+PnP DNS Trustpool: OKToBackup:Yes
+	Backup Total:0, OK:0, Failed:0
+	Validated:0, Invalidated:0, Tolerance:10
+	Current Backup Size:0 bytes, FilePath:[-], Source:[-]
+	Last Backup Size:0 bytes, FilePath:[-], Source:[-]
+
+PnP DHCP Snooping: Supported: No, Validation: No, Registry: DHCP: No, Vlan: No, Trust Interfaces: No
+PnP DHCP-Op43: N/A, Ready: No, DHCP-Op60: ciscopnp, Ready: Yes
+
+PnP Proxy Name: none(Not Ready), Associated Profile: pnp_cco_profile(Found) 
+PnP Proxy Service Count: Change=1 Up=0 Down=0 NoOP=0 Fail=0 UDI=0 RSP=0
+
+
+------------------ show pnp profiles ------------------
+
+PnP Profiles: Active:0, Created:1, Deleted:1, Hidden:0
+
+first-profile-created-name=[pnp_cco_profile] by:[pid=356, pname=PnP Agent Discovery, time=17:50:40 WET Fri Nov 20 2026])
+last-profile-created-name=[pnp_cco_profile] by:[pid=356, pname=PnP Agent Discovery, time=17:50:40 WET Fri Nov 20 2026]
+last-profile-deleted-name=[pnp_cco_profile] by:[pid=356, pname=PnP Agent Discovery, time=17:50:54 WET Fri Nov 20 2026]
+
+Name            CBType Node     Primary-Path           Primary-Trans  Backup-Trans  
+
+
+------------------ show pnp counters ------------------
+
+
+------------------ show pnp tasks ---------------------
+
+Certificate-Install Task - Never Run
+
+Device-Auth Task - Never Run
+
+Device-Info Task - Never Run
+
+Image-Install Task - Never Run
+
+SMU Task - Never Run
+
+Config-Upgrade Task - Never Run
+
+CLI-Config Task - Never Run
+
+Licensing Task - Never Run
+
+File-Transfer Task - Never Run
+
+Redirection Task - Never Run
+
+CLI-Exec Task - Never Run
+
+Script Task - Never Run
+
+Backoff Task - Run-ID:1, Stat-Type:6901, Result:Success, Time=[17:50:42 WET Fri Nov 20 2026] (elapsed 1 ms)
+	Src:[Backoff request], Dst:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443]
+	Details:[PNP-BACKOFF (1): status=[Backoff OK], run-by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], backoff-op=3, backoff-reason=[Backoff request], terminate-now=[No], default-minute=0 min, backoff-time=86400 sec, tracking-total=1, backoff-now-total=1, pzt=0, pcp=1, prp=0, others=0, terminate-total=0, err=0 [-], (elapsed-time=0 sec)
+]
+
+Capability Task - Never Run
+
+Topology Task - Never Run
+
+Interface-Info Task - Never Run
+
+Device-ID-Cert Task - Never Run
+
+EEM-Proxy Task - Never Run
+
+Fault Task - Never Run
+
+NAPP Task - Never Run
+
+NAPP-Notify Task - Never Run
+
+NAPP-Server Task - Never Run
+
+Reload Task - Never Run
+
+SNMP Task - Never Run
+
+Snooping Task - Never Run
+
+Syslog Task - Never Run
+
+Tag Task - Never Run
+
+Work-Info Task - Run-ID:3, Stat-Type:6903, Result:Success, Time=[17:50:42 WET Fri Nov 20 2026] (elapsed 1 ms)
+	Src:[CiscoPnP-1.0-R35.201014-I1-P356-T25497-2], Dst:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443]
+	Details:[PNP-WORKINFO (1): status=[Workinfo OK], run-by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], ack-inde=101, udi=[-], sudi=[-], mac=[-], hostname=[-], sid=[25051f52-2827-4c5e-868a-918830c944cf], err=0 [-], (elapsed-time=0 sec)
+]
+
+Discovery Task - Never Run
+
+Monitoring Task - Never Run
+
+Swift-UT Task - Run-ID:4, Stat-Type:8301, Result:Success, Time=[-] (elapsed 1 ms)
+	Src:[CiscoPnP-1.0-R35.201014-I1-P356-T25497-2], Dst:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443]
+	Details:[PNP-WORKINFO (1): status=[Workinfo OK], run-by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], ack-inde=101, udi=[-], sudi=[-], mac=[-], hostname=[-], sid=[25051f52-2827-4c5e-868a-918830c944cf], err=0 [-], (elapsed-time=0 sec)
+]
+
+Device-Setup Task - Never Run
+
+Others Task - Never Run
+
+
+--------------- show pnp requests ---------------------
+
+Work-Info Task - Run-ID:3, Stat-Type:6903, Result:Success, Time=[17:50:42 WET Fri Nov 20 2026] (elapsed 1 ms)
+	Src:[CiscoPnP-1.0-R35.201014-I1-P356-T25497-2], Dst:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443]
+	Details:[PNP-WORKINFO (1): status=[Workinfo OK], run-by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], ack-inde=101, udi=[-], sudi=[-], mac=[-], hostname=[-], sid=[25051f52-2827-4c5e-868a-918830c944cf], err=0 [-], (elapsed-time=0 sec)
+]
+
+Backoff Task - Run-ID:1, Stat-Type:6901, Result:Success, Time=[17:50:42 WET Fri Nov 20 2026] (elapsed 1 ms)
+	Src:[Backoff request], Dst:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443]
+	Details:[PNP-BACKOFF (1): status=[Backoff OK], run-by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], backoff-op=3, backoff-reason=[Backoff request], terminate-now=[No], default-minute=0 min, backoff-time=86400 sec, tracking-total=1, backoff-now-total=1, pzt=0, pcp=1, prp=0, others=0, terminate-total=0, err=0 [-], (elapsed-time=0 sec)
+]
+
+
+---------- show pnp file backup tracking -------------
+
+Last Backup Result:[-]
+Last Src File Path:[-], Size: 0, Checksum=[-]
+Last Src Backup Path:[-], Size: 0
+Last Src Backup Result:[-]
+Total Src Backup Count: 0
+Last Dest File Path:[-], Size: 0
+Last Dest Backup Path:[-]
+Last Dest Backup Result:[-]
+Total Dest Backup Count: 0
+
+------------------ show pnp services ------------------
+
+Service name: PnP Bootstrap Service, Run Count: 18 (S=0/F=18/O=0), Status: Last Run Failed, Elapsed Time: <1 ms
+Service name: PnP Auto-Install Service, Status: Never Run
+Service name: PnP Discovery Service, Run Count: 18 (S=0/F=18/O=0), Status: Last Run Failed, Elapsed Time: <1 ms
+Service name: PnP DHCP Discovery Service, Run Count: 15 (S=0/F=15/O=0), Status: Last Run Failed, Elapsed Time: <1 ms
+Service name: PnP DNS Discovery Service, Run Count: 15 (S=0/F=15/O=0), Status: Last Run Failed, Elapsed Time: <1 ms
+Service name: PnP Platform Discovery Service, Status: Never Run
+Service name: PnP CCO Discovery Service, Run Count: 15 (S=0/F=15/O=0), Status: Last Run Failed, Elapsed Time: <1 ms
+Service name: PnP Webui Discovery Service, Status: Never Run
+Service name: PnP NAPP Discovery Service, Status: Never Run
+Service name: PnP SMI Discovery Service, Status: Never Run
+Service name: PnP Capability Service, Status: Never Run
+Service name: PnP Certificate-Install Service, Status: Never Run
+Service name: PnP Config-Change Service, Run Count: 5 (S=3/F=2/O=0), Status: Last Run Failed, Elapsed Time: 14011 ms
+Service name: PnP Config-Upgrade Service, Status: Never Run
+Service name: PnP Config-Rollback Service, Status: Never Run
+Service name: PnP CLI-Config Service, Status: Never Run
+Service name: PnP Device-Info Service, Status: Never Run
+Service name: PnP Device-Setup Service, Status: Never Run
+Service name: PnP EEM Proxy Service, Status: Never Run
+Service name: PnP Devie ID Cert Service, Status: Never Run
+Service name: PnP CLI-Exec Service, Status: Never Run
+Service name: PnP File-Transfer Service, Status: Never Run
+Service name: PnP Hello Service, Run Count: 1 (S=1/F=0/O=0), Status: Last Run Success, Elapsed Time: 421 ms
+Service name: PnP Image-Install Service, Status: Never Run
+Service name: PnP Interface Info Service, Status: Never Run
+Service name: PnP Licensing Service, Status: Never Run
+Service name: PnP Location Service, Status: Never Run
+Service name: PnP Monitoring Service, Status: Never Run
+Service name: PnP Napp Service, Status: Never Run
+Service name: PnP NappServer Service, Status: Never Run
+Service name: PnP Notify Service, Status: Never Run
+Service name: PnP Proxy Service, Status: Never Run
+Service name: PnP Server Redirection Service, Status: Never Run
+Service name: PnP Script Service, Status: Never Run
+Service name: PnP SMU Service, Status: Never Run
+Service name: PnP Snmp Service, Status: Never Run
+Service name: PnP Snooping Service, Status: Never Run
+Service name: PnP Syslog Service, Status: Never Run
+Service name: PnP Topology Service, Status: Never Run
+Service name: PnP Device-Auth Service, Status: Never Run
+Service name: PnP Token Auth Service, Status: Never Run
+Service name: PnP Work-Req Service, Run Count: 36 (S=1/F=30/O=5), Status: Last Run TimerStarted, Elapsed Time: <1 ms
+Service name: PnP Work-Backoff Service, Run Count: 1 (S=1/F=0/O=0), Status: Last Run Success, Elapsed Time: <1 ms
+Service name: PnP Response Service, Run Count: 1 (S=1/F=0/O=0), Status: Last Run Success, Elapsed Time: <1 ms
+Service name: PnP Fault Service, Status: Never Run
+Service name: PnP Work-Info Service, Run Count: 1 (S=1/F=0/O=0), Status: Last Run Success, Elapsed Time: 1 ms
+
+
+---------------- show pnp cert service info ---------------
+
+Installed Certificates: 
+	pnplabel:Not Found
+	primary-cert:Not Found
+	backup-cert:Not Found
+
+PnP Cert Service Total:1, OK:1, Fail:0
+Last-Svc-OK:Yes, Last-Failure:[-]
+
+PnP Trustpool Install: LastSvcIndex:0, Total:0, OK:0, Fail:0, PT: 0 ms, FirstPT: 0 ms, LastPT:0
+	OP-OK:No, src-path:[-], label:[-], by:[-]
+	Last-OP-OK:No, src-path:[-], label:[-], by:[-]
+
+PnP Trustpool Uninstall: LastSvcIndex:1, Total:1, OK:1, Fail:0, PT: 38506 ms, FirstPT: 38506 ms, LastPT:0
+	OP-OK:Yes, src-path:[-], label:[-], by:[pid=356, pname=PnP Agent Discovery, time=17:50:54 WET Fri Nov 20 2026]
+	Last-OP-OK:No, src-path:[-], label:[-], by:[-]
+
+PnP Trustpoint Install: LastSvcIndex:0, Total:0, OK:0, Fail:0, PT: 0 ms, FirstPT: 0 ms, LastPT:0
+	OP-OK:No, src-path:[-], label:[-], by:[-]
+	Last-OP-OK:No, src-path:[-], label:[-], by:[-]
+
+PnP Trustpoint Uninstall: LastSvcIndex:0, Total:0, OK:0, Fail:0, PT: 0 ms, FirstPT: 0 ms, LastPT:0
+	OP-OK:No, src-path:[-], label:[-], by:[-]
+	Last-OP-OK:No, src-path:[-], label:[-], by:[-]
+
+PnP Trustpoint Rollback: LastSvcIndex:0, Total:0, OK:0, Fail:0, PT: 0 ms, FirstPT: 0 ms, LastPT:0
+	OP-OK:No, src-path:[-], label:[-], by:[-]
+	Last-OP-OK:No, src-path:[-], label:[-], by:[-]
+
+
+--------------- show pnp errors tracking ---------------
+
+Total Tracking Count:0
+
+Certificate-Install Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+CLI-Config Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+CLI-Exec Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Config-Upgrade Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Copy-File Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Device-ID-Cert Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Device-Setup Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+File-Transfer Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Hello Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Image-Install Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Monitor Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Reload Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+Script Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+SMU Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+XML-Parse Error: Total-Update:0, Tracking-Index:0, Time=[-]
+	Msg=[-]
+
+
+--------------- show pnp reconfig ---------------
+
+Reconfiguration Malloc:0, Free:0, Reconfig'd:0
+
+------------------ show pnp topology ------------------
+
+-------------- show pnp interface tracking ---------------
+
+Interface [Ethernet0/2]: status:up, protocol:up, ok:YES, method:DHCP
+	ipv4: [192.168.122.4]
+
+
+---------------- show pnp cmd tracking ---------------
+
+PnP Service Internal:OFF, Must-Keep-Backup:No, Must-Ignore..-Config-Reg:No, -Config-Rollback:No, -Terminate-Now:No, -Save-Tech:No, -IFS-Walk:No, -DIR-Walk:Yes, -Image-Signature:No, -Reload-Info:No
+
+PnP Cmd(1): [pnp copy], Run Count: 0, Details:[-]
+
+PnP Cmd(2): [pnp certify], Run Count: 0, Details:[-]
+
+PnP Cmd(3): [pnp config-upgrade], Run Count: 0, Details:[-]
+
+PnP Cmd(4): [pnp hello], Run Count: 0, Details:[-]
+
+PnP Cmd(5): [pnp image-install], Run Count: 0, Details:[-]
+
+PnP Cmd(6): [pnp image-install remove-inactive], Run Count: 0, Details:[-]
+
+PnP Cmd(7): [pnp image-install commit], Run Count: 0, Details:[-]
+
+PnP Cmd(8): [pnp reset], Run Count: 0, Details:[-]
+
+PnP Cmd(9): [pnp reload], Run Count: 0, Details:[-]
+
+PnP Cmd(10): [pnp save-tech], Run Count: 0, Details:[-]
+
+PnP Cmd(11): [pnp script], Run Count: 0, Details:[-]
+
+PnP Cmd(12): [pnp smu-verify], Run Count: 0, Details:[-]
+
+PnP Cmd(13): [pnp service proxy-control], Run Count: 0, Details:[-]
+
+PnP Cmd(14): [pnp summary], Run Count: 0, Details:[-]
+
+PnP Cmd(15): [pnp trustpoint-install], Run Count: 0, Details:[-]
+
+PnP Cmd(16): [pnp trustpoint-uninstall], Run Count: 0, Details:[-]
+
+PnP Cmd(17): [pnp trustpool-install], Run Count: 0, Details:[-]
+
+PnP Cmd(18): [pnp trustpool-uninstall], Run Count: 0, Details:[-]
+
+PnP Cmd(19): [pnp validate-config], Run Count: 0, Details:[-]
+
+PnP Cmd(20): [pnp verify-image], Run Count: 0, Details:[-]
+
+PnP Cmd(21): [pnp wait-time], Run Count: 0, Details:[-]
+
+PnP Cmd(22): [pnp webui-set], Run Count: 0, Details:[-]
+
+PnP Cmd(23): [pnp webui-stop], Run Count: 0, Details:[-]
+
+PnP Cmd(24): [pnp webui-start], Run Count: 0, Details:[-]
+
+PnP Proxy Registry: GetNext: No, DoRequest: No
+PnP Proxy Index: Max=1, Last=0
+PnP Proxy UDI: [-], Service Type: 0
+PnP Proxy Req(1): [pnp proxy get-next], Run Count: 0
+PnP Proxy Req(2): [pnp proxy backoff], Run Count: 0
+PnP Proxy Req(3): [pnp proxy capability], Run Count: 0
+PnP Proxy Req(4): [pnp proxy config-upgrade], Run Count: 0
+PnP Proxy Req(5): [pnp proxy device-info], Run Count: 0
+PnP Proxy Req(6): [pnp proxy image-install], Run Count: 0
+PnP Proxy Req(7): [pnp proxy work-info], Run Count: 0
+PnP Proxy Req(8): [pnp proxy unsupported], Run Count: 0
+
+-------------- show pnp monitor tracking (1) ---------------
+
+PnP Monitor: Inited:Yes, pid=355, Watcher-Inted:Yes, Event-Watcher:71B29C396C70
+
+PnP Event-Handlers (Total:8), Notifications: Started:0, Stopped:0
+
+Event-Handler.0:[PnP-Profile-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.1:[PnP-Server-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.2:[PnP-TLS-Tunnel-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.3:[PnP-Service-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.4:[PnP-Config-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.5:[PnP-State-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.6:[Unknown-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+Event-Handler.7:[Unknown-Monitor]: OKToRun:Yes, Running:No, Started:0, Stopped:0
+
+----------- show pnp event watch tracking ------------
+
+PnP Event-Watch Type (Total:14)
+
+Event-Watching.1:[no-pnp-profile-found]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.2:[pnp-profile-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.3:[pnp-server-still-unreachable]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.4:[pnp-server-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.5:[pnp-connect-still-unreachable]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.6:[pnp-connect-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.7:[tls-tunnel-still-down]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.8:[tls-tunnel-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.9:[pnp-service-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.10:[pnp-config-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.11:[pnp-state-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.12:[system-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.13:[interface-still-down]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+Event-Watching.14:[interface-tracking]: OKToWatch:[No], TotalEnabled:0, TotalDisabled:0, TotalNotified:0, TotalAcked=0, WatchID=[], LastWatchID=[], EventParamStr:[], EventParamValue:0, ActionToTake:[], ActionParamStr:[], ActionParamValue:0, DelayInSec:0, IntervalInSec:0
+
+
+----------- show pnp event action tracking ------------
+
+PnP Event-Action Type (Total:10), Default:[syslog], LastDefault:[-]
+
+Event-Action.0:[no-op], Result OK:0, Failed:0, Last:[-]
+Event-Action.1:[syslog], Result OK:0, Failed:0, Last:[-]
+Event-Action.2:[notify-pnp-server-now], Result OK:0, Failed:0, Last:[-]
+Event-Action.3:[wakeup-pnp-server-now], Result OK:0, Failed:0, Last:[-]
+Event-Action.4:[restart-pnp-discovery], Result OK:0, Failed:0, Last:[-]
+Event-Action.5:[device-reload-as-is], Result OK:0, Failed:0, Last:[-]
+Event-Action.6:[device-save-then-reload], Result OK:0, Failed:0, Last:[-]
+Event-Action.7:[device-write-erase-reload], Result OK:0, Failed:0, Last:[-]
+Event-Action.8:[pnp-hard-reset], Result OK:0, Failed:0, Last:[-]
+Event-Action.9:[run-script], Result OK:0, Failed:0, Last:[-]
+
+----------- show pnp event notify tracking ------------
+
+PnP Event-Notification Type (Total:29), Notify Outstanding Total:0, Last:0
+
+Event-Notify.0:[unknown]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.0.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.1:[no-pnp-profile-found]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.1.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.2:[pnp-profile-added]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[3] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:40 WET Fri Nov 20 2026] reason:[PnP Profile [pnp_cco_profile] created], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.2.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.3:[pnp-profile-modified]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.3.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.4:[pnp-profile-deleted]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[10] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[PnP Profile [pnp_cco_profile] deleted], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.4.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.5:[pnp-server-still-unreachable]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.5.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.6:[pnp-server-unreachable]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.6.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.7:[pnp-server-reachable]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[9] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp_cco_profile], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.7.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.8:[pnp-connect-still-unreachable]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.8.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.9:[pnp-connect-unreachable]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.9.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.10:[pnp-connect-reachable]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.10.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.11:[tls-tunnel-still-down]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.11.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.12:[tls-tunnel-down]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.12.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.13:[tls-tunnel-up]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.13.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.14:[pnp-service-start]: TotalNotified:2, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[7] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-bye-service-started], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.14.ID:[5] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-started], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.15:[pnp-service-update]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.15.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.16:[pnp-service-stop]: TotalNotified:2, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[8] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-bye-service-ok], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.16.ID:[6] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-ok], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.17:[pnp-config-change]: TotalNotified:5, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[12] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[11] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[config-change-done], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.18:[pnp-config-write-memory]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.18.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.19:[pnp-config-write-erase]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.19.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.20:[pnp-state-change]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.20.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.21:[pnp-state-unclaimed]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.21.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.22:[pnp-state-provisioned]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.22.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.23:[pnp-state-error]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.23.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.24:[system-reload-scheduled]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.24.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.25:[system-reload-cancelled]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.25.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.26:[interface-still-down]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.26.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.27:[interface-down]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.27.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.28:[interface-up]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.28.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+Event-Notify.29:[file-transfer-progress]: TotalNotified:0, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[0] by:[-] at:[-] reason:[-], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.29.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+
+------------------ show pnp trace ------------------
+
+[11/20/26 17:50:41.874 WET AA 356] PNP-CONFIG (1.0): config [pnp profile pnp_cco_profile
+transport https host devicehelper.cisco.com. port 443 remotecert RXC_Trustpool
+end
+] OK
+[11/20/26 17:50:41.874 WET AB 356] 2 _pcdd.wwr: Wait for valid request for 60 sec (interval=3 sec)
+[11/20/26 17:50:42.418 WET AC 89] 18 _paati.info: _xmastt.info (16) 52. PnP Stop Reload-Info PT: 26043 ms, FirstPT: 26043 ms, LastPT: 0 ms, Notified:1, Annotation:[pid=89, pname=XEP_pnp_cco_profile, time=17:50:42 WET Fri Nov 20 2026]
+[11/20/26 17:50:44.876 WET AD 356] 2 _pcdd.after.frc: cco.backoff.req-found:Yes, cco-req-check: FirstCheck=No, CurrentCheck=Yes, reuqest-type=[backoff], red<truncated>
+[11/20/26 17:50:44.876 WET AE 356] 2 _pcdd.bfc: Received Backoff from CCO, resp-ack-wait=10 sec
+[11/20/26 17:50:54.877 WET AF 356] 2 _pcdd.boc: Backing off CCO discovery for 86400 sec
+[11/20/26 17:50:54.877 WET B0 356] 1 _pcwcp.pcw: Creating CCO wait process.
+[11/20/26 17:50:54.877 WET B1 356] 1 _pcwcp.don: CCO wait process created successfully.
+[11/20/26 17:50:54.877 WET B2 356] PNP-CCO-WAIT (2): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:50:54.877 WET B3 356] 2 _pcdd.clu: Cleaning up
+[11/20/26 17:50:54.878 WET B4 356] 19 _paati.info: _xmastt.info (17) 20. PnP Profile Delete PT: 38503 ms, FirstPT: 38503 ms, LastPT: 0 ms, Notified:1, Annotation:[pnp_cco_profile]
+[11/20/26 17:50:54.878 WET B5 356] 20 _paati.info: _xmastt.info (18) 15. Config Change PT: 38503 ms, FirstPT: 15135 ms, LastPT: 25498 ms, Notified:4, Annotation:[pid=356, pname=PnP Agent Discovery, time=17:50:54 WET Fri Nov 20 2026]
+[11/20/26 17:50:54.878 WET B6 356] PNP-CONFIG (2.0): config [no pnp profile pnp_cco_profile
+end
+] OK
+[11/20/26 17:50:54.881 WET B7 356] 21 _paati.info: _xmastt.info (19) 15. Config Change PT: 38505 ms, FirstPT: 15135 ms, LastPT: 38503 ms, Notified:5, Annotation:[pid=356, pname=PnP Agent Discovery, time=17:50:54 WET Fri Nov 20 2026]
+[11/20/26 17:50:54.881 WET B8 356] 22 _paati.info: _xmastt.info (20) 23. PnP Certificate Changed PT: 38506 ms, FirstPT: 38506 ms, LastPT: 0 ms, Notified:1, Annotation:[-]
+[11/20/26 17:50:54.881 WET B9 356] 1 _pcbc.don: ca bundle cleaned up
+[11/20/26 17:50:54.881 WET BA 356] 1 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:50:55.882 WET BB 66] 1 _pcwgd.bwt: Starting CCO wait timer for 86400 secs. PID: 66
+[11/20/26 17:50:56.883 WET BC 356] 3.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:50:56.883 WET BD 356] 4 _gpwru.prt: Port is 443
+[11/20/26 17:50:56.883 WET BE 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:50:56.883 WET BF 356] CLEAN UP VRF
+[11/20/26 17:50:56.883 WET C0 356] Discovery state change from 2 to 9
+[11/20/26 17:50:56.883 WET C1 356] 3 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:50:56.883 WET C2 356] 3 _pbnbs.info: [PnP Discovery Manager] stopped, reason:[Discovery Failed]
+[11/20/26 17:51:06.889 WET C3 356] Discovery state change from 9 to 2
+[11/20/26 17:51:06.890 WET C4 356] 8 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:51:06.890 WET C5 356] Platform discovery not required
+[11/20/26 17:51:06.890 WET C6 356] 1 spd.drc: PnP Discovery trial number[4]
+[11/20/26 17:51:06.890 WET C7 356] WebUI: Not supported on platform
+[11/20/26 17:51:06.890 WET C8 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:51:06.890 WET C9 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:51:06.890 WET CA 356] 2 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:51:06.890 WET CB 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:51:06.890 WET CC 356] 2 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:51:08.891 WET CD 356] 4.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:51:08.891 WET CE 356] 2 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:51:08.891 WET CF 356] CLEAN UP VRF
+[11/20/26 17:51:08.892 WET D0 356] 2 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:51:08.892 WET D1 356] 2 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:51:08.892 WET D2 356] 2 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:51:10.904 WET D3 356] 4.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:51:10.904 WET D4 356] CLEAN UP VRF
+[11/20/26 17:51:10.904 WET D5 356] 2 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:51:10.904 WET D6 356] 2 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:51:10.904 WET D7 356] 3 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:51:10.904 WET D8 356] 2 _picw.pcw: CCO wait process exists
+[11/20/26 17:51:10.904 WET D9 356] PNP-CCO-WAIT (3): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:51:10.904 WET DA 356] 3 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:51:10.904 WET DB 356] 2 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:51:12.909 WET DC 356] 4.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:51:12.909 WET DD 356] 5 _gpwru.prt: Port is 80
+[11/20/26 17:51:12.909 WET DE 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:51:12.909 WET DF 356] CLEAN UP VRF
+[11/20/26 17:51:12.909 WET E0 356] Discovery state change from 2 to 9
+[11/20/26 17:51:12.909 WET E1 356] 4 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:51:22.912 WET E2 356] Discovery state change from 9 to 2
+[11/20/26 17:51:22.913 WET E3 356] 9 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:51:22.913 WET E4 356] Platform discovery not required
+[11/20/26 17:51:22.913 WET E5 356] 1 spd.drc: PnP Discovery trial number[5]
+[11/20/26 17:51:22.913 WET E6 356] WebUI: Not supported on platform
+[11/20/26 17:51:22.913 WET E7 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:51:22.913 WET E8 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:51:22.913 WET E9 356] 3 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:51:22.913 WET EA 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:51:22.913 WET EB 356] 3 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:51:24.914 WET EC 356] 5.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:51:24.914 WET ED 356] 3 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:51:24.914 WET EE 356] CLEAN UP VRF
+[11/20/26 17:51:24.914 WET EF 356] 3 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:51:24.914 WET F0 356] 3 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:51:24.914 WET F1 356] 3 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:51:26.918 WET F2 356] 5.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:51:26.918 WET F3 356] CLEAN UP VRF
+[11/20/26 17:51:26.918 WET F4 356] 3 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:51:26.918 WET F5 356] 3 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:51:26.918 WET F6 356] 4 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:51:26.918 WET F7 356] 3 _picw.pcw: CCO wait process exists
+[11/20/26 17:51:26.918 WET F8 356] PNP-CCO-WAIT (4): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:51:26.918 WET F9 356] 4 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:51:26.918 WET FA 356] 3 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:51:28.918 WET FB 356] 5.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:51:28.918 WET FC 356] 6 _gpwru.prt: Port is 80
+[11/20/26 17:51:28.918 WET FD 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:51:28.918 WET FE 356] CLEAN UP VRF
+[11/20/26 17:51:28.918 WET FF 356] Discovery state change from 2 to 9
+[11/20/26 17:51:28.918 WET 100 356] 5 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:51:38.918 WET 101 356] Discovery state change from 9 to 2
+[11/20/26 17:51:38.918 WET 102 356] 10 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:51:38.918 WET 103 356] Platform discovery not required
+[11/20/26 17:51:38.918 WET 104 356] 1 spd.drc: PnP Discovery trial number[6]
+[11/20/26 17:51:38.918 WET 105 356] WebUI: Not supported on platform
+[11/20/26 17:51:38.918 WET 106 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:51:38.918 WET 107 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:51:38.918 WET 108 356] 4 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:51:38.918 WET 109 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:51:38.918 WET 10A 356] 4 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:51:40.920 WET 10B 356] 6.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:51:40.920 WET 10C 356] 4 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:51:40.920 WET 10D 356] CLEAN UP VRF
+[11/20/26 17:51:40.920 WET 10E 356] 4 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:51:40.920 WET 10F 356] 4 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:51:40.921 WET 110 356] 4 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:51:42.927 WET 111 356] 6.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:51:42.927 WET 112 356] CLEAN UP VRF
+[11/20/26 17:51:42.927 WET 113 356] 4 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:51:42.927 WET 114 356] 4 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:51:42.927 WET 115 356] 5 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:51:42.927 WET 116 356] 4 _picw.pcw: CCO wait process exists
+[11/20/26 17:51:42.927 WET 117 356] PNP-CCO-WAIT (5): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:51:42.927 WET 118 356] 5 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:51:42.927 WET 119 356] 4 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:51:44.928 WET 11A 356] 6.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:51:44.928 WET 11B 356] 7 _gpwru.prt: Port is 80
+[11/20/26 17:51:44.928 WET 11C 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:51:44.928 WET 11D 356] CLEAN UP VRF
+[11/20/26 17:51:44.928 WET 11E 356] Discovery state change from 2 to 9
+[11/20/26 17:51:44.928 WET 11F 356] 6 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:51:54.933 WET 120 356] Discovery state change from 9 to 2
+[11/20/26 17:51:54.933 WET 121 356] 11 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:51:54.933 WET 122 356] Platform discovery not required
+[11/20/26 17:51:54.933 WET 123 356] 1 spd.drc: PnP Discovery trial number[7]
+[11/20/26 17:51:54.933 WET 124 356] WebUI: Not supported on platform
+[11/20/26 17:51:54.933 WET 125 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:51:54.933 WET 126 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:51:54.933 WET 127 356] 5 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:51:54.933 WET 128 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:51:54.933 WET 129 356] 5 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:51:56.936 WET 12A 356] 7.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:51:56.936 WET 12B 356] 5 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:51:56.936 WET 12C 356] CLEAN UP VRF
+[11/20/26 17:51:56.936 WET 12D 356] 5 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:51:56.936 WET 12E 356] 5 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:51:56.936 WET 12F 356] 5 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:51:58.947 WET 130 356] 7.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:51:58.947 WET 131 356] CLEAN UP VRF
+[11/20/26 17:51:58.947 WET 132 356] 5 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:51:58.947 WET 133 356] 5 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:51:58.947 WET 134 356] 6 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:51:58.947 WET 135 356] 5 _picw.pcw: CCO wait process exists
+[11/20/26 17:51:58.947 WET 136 356] PNP-CCO-WAIT (6): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:51:58.947 WET 137 356] 6 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:51:58.947 WET 138 356] 5 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:52:00.948 WET 139 356] 7.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:52:00.948 WET 13A 356] 8 _gpwru.prt: Port is 80
+[11/20/26 17:52:00.948 WET 13B 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:52:00.948 WET 13C 356] CLEAN UP VRF
+[11/20/26 17:52:00.948 WET 13D 356] Discovery state change from 2 to 9
+[11/20/26 17:52:00.948 WET 13E 356] 7 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:52:10.950 WET 13F 356] Discovery state change from 9 to 2
+[11/20/26 17:52:10.951 WET 140 356] 12 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:52:10.951 WET 141 356] Platform discovery not required
+[11/20/26 17:52:10.951 WET 142 356] 1 spd.drc: PnP Discovery trial number[8]
+[11/20/26 17:52:10.951 WET 143 356] WebUI: Not supported on platform
+[11/20/26 17:52:10.951 WET 144 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:52:10.951 WET 145 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:52:10.951 WET 146 356] 6 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:52:10.951 WET 147 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:52:10.951 WET 148 356] 6 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:52:12.953 WET 149 356] 8.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:52:12.953 WET 14A 356] 6 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:52:12.953 WET 14B 356] CLEAN UP VRF
+[11/20/26 17:52:12.953 WET 14C 356] 6 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:52:12.953 WET 14D 356] 6 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:52:12.953 WET 14E 356] 6 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:52:14.961 WET 14F 356] 8.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:52:14.961 WET 150 356] CLEAN UP VRF
+[11/20/26 17:52:14.961 WET 151 356] 6 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:52:14.961 WET 152 356] 6 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:52:14.961 WET 153 356] 7 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:52:14.961 WET 154 356] 6 _picw.pcw: CCO wait process exists
+[11/20/26 17:52:14.961 WET 155 356] PNP-CCO-WAIT (7): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:52:14.961 WET 156 356] 7 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:52:14.961 WET 157 356] 6 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:52:16.967 WET 158 356] 8.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:52:16.967 WET 159 356] 9 _gpwru.prt: Port is 80
+[11/20/26 17:52:16.967 WET 15A 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:52:16.967 WET 15B 356] CLEAN UP VRF
+[11/20/26 17:52:16.967 WET 15C 356] Discovery state change from 2 to 9
+[11/20/26 17:52:16.967 WET 15D 356] 8 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:52:26.968 WET 15E 356] Discovery state change from 9 to 2
+[11/20/26 17:52:26.968 WET 15F 356] 13 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:52:26.968 WET 160 356] Platform discovery not required
+[11/20/26 17:52:26.968 WET 161 356] 1 spd.drc: PnP Discovery trial number[9]
+[11/20/26 17:52:26.968 WET 162 356] WebUI: Not supported on platform
+[11/20/26 17:52:26.968 WET 163 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:52:26.968 WET 164 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:52:26.968 WET 165 356] 7 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:52:26.968 WET 166 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:52:26.968 WET 167 356] 7 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:52:28.971 WET 168 356] 9.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:52:28.971 WET 169 356] 7 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:52:28.971 WET 16A 356] CLEAN UP VRF
+[11/20/26 17:52:28.971 WET 16B 356] 7 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:52:28.971 WET 16C 356] 7 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:52:28.971 WET 16D 356] 7 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:52:30.971 WET 16E 356] 9.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:52:30.971 WET 16F 356] CLEAN UP VRF
+[11/20/26 17:52:30.971 WET 170 356] 7 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:52:30.971 WET 171 356] 7 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:52:30.971 WET 172 356] 8 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:52:30.971 WET 173 356] 7 _picw.pcw: CCO wait process exists
+[11/20/26 17:52:30.971 WET 174 356] PNP-CCO-WAIT (8): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:52:30.971 WET 175 356] 8 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:52:30.972 WET 176 356] 7 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:52:32.976 WET 177 356] 9.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:52:32.976 WET 178 356] 10 _gpwru.prt: Port is 80
+[11/20/26 17:52:32.976 WET 179 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:52:32.976 WET 17A 356] CLEAN UP VRF
+[11/20/26 17:52:32.976 WET 17B 356] Discovery state change from 2 to 9
+[11/20/26 17:52:32.976 WET 17C 356] 9 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:52:42.980 WET 17D 356] Discovery state change from 9 to 2
+[11/20/26 17:52:42.980 WET 17E 356] 14 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:52:42.980 WET 17F 356] Platform discovery not required
+[11/20/26 17:52:42.980 WET 180 356] 1 spd.drc: PnP Discovery trial number[10]
+[11/20/26 17:52:42.980 WET 181 356] WebUI: Not supported on platform
+[11/20/26 17:52:42.980 WET 182 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:52:42.980 WET 183 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:52:42.980 WET 184 356] 8 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:52:42.980 WET 185 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:52:42.980 WET 186 356] 8 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:52:44.983 WET 187 356] 10.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:52:44.983 WET 188 356] 8 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:52:44.983 WET 189 356] CLEAN UP VRF
+[11/20/26 17:52:44.983 WET 18A 356] 8 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:52:44.983 WET 18B 356] 8 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:52:44.983 WET 18C 356] 8 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:52:46.984 WET 18D 356] 10.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:52:46.984 WET 18E 356] CLEAN UP VRF
+[11/20/26 17:52:46.984 WET 18F 356] 8 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:52:46.984 WET 190 356] 8 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:52:46.984 WET 191 356] 9 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:52:46.984 WET 192 356] 8 _picw.pcw: CCO wait process exists
+[11/20/26 17:52:46.984 WET 193 356] PNP-CCO-WAIT (9): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:52:46.984 WET 194 356] 9 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:52:46.984 WET 195 356] 8 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:52:48.985 WET 196 356] 10.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:52:48.985 WET 197 356] 11 _gpwru.prt: Port is 80
+[11/20/26 17:52:48.985 WET 198 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:52:48.985 WET 199 356] CLEAN UP VRF
+[11/20/26 17:52:48.985 WET 19A 356] Discovery state change from 2 to 9
+[11/20/26 17:52:48.985 WET 19B 356] 10 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:52:58.989 WET 19C 356] Discovery state change from 9 to 2
+[11/20/26 17:52:58.989 WET 19D 356] 15 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:52:58.989 WET 19E 356] Platform discovery not required
+[11/20/26 17:52:58.989 WET 19F 356] 1 spd.drc: PnP Discovery trial number[11]
+[11/20/26 17:52:58.989 WET 1A0 356] WebUI: Not supported on platform
+[11/20/26 17:52:58.989 WET 1A1 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:52:58.989 WET 1A2 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:52:58.989 WET 1A3 356] 9 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:52:58.989 WET 1A4 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:52:58.989 WET 1A5 356] 9 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:53:00.998 WET 1A6 356] 11.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:53:00.998 WET 1A7 356] 9 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:53:00.998 WET 1A8 356] CLEAN UP VRF
+[11/20/26 17:53:00.998 WET 1A9 356] 9 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:53:00.998 WET 1AA 356] 9 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:53:00.998 WET 1AB 356] 9 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:53:03.005 WET 1AC 356] 11.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:53:03.005 WET 1AD 356] CLEAN UP VRF
+[11/20/26 17:53:03.005 WET 1AE 356] 9 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:53:03.005 WET 1AF 356] 9 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:53:03.005 WET 1B0 356] 10 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:53:03.005 WET 1B1 356] 9 _picw.pcw: CCO wait process exists
+[11/20/26 17:53:03.005 WET 1B2 356] PNP-CCO-WAIT (10): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:53:03.005 WET 1B3 356] 10 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:53:03.005 WET 1B4 356] 9 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:53:05.013 WET 1B5 356] 11.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:53:05.013 WET 1B6 356] 12 _gpwru.prt: Port is 80
+[11/20/26 17:53:05.013 WET 1B7 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:53:05.013 WET 1B8 356] CLEAN UP VRF
+[11/20/26 17:53:05.013 WET 1B9 356] Discovery state change from 2 to 9
+[11/20/26 17:53:05.013 WET 1BA 356] 11 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:53:15.014 WET 1BB 356] Discovery state change from 9 to 2
+[11/20/26 17:53:15.014 WET 1BC 356] 16 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:53:15.014 WET 1BD 356] Platform discovery not required
+[11/20/26 17:53:15.014 WET 1BE 356] 1 spd.drc: PnP Discovery trial number[12]
+[11/20/26 17:53:15.014 WET 1BF 356] WebUI: Not supported on platform
+[11/20/26 17:53:15.014 WET 1C0 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:53:15.014 WET 1C1 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:53:15.014 WET 1C2 356] 10 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:53:15.014 WET 1C3 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:53:15.014 WET 1C4 356] 10 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:53:17.026 WET 1C5 356] 12.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:53:17.026 WET 1C6 356] 10 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:53:17.026 WET 1C7 356] CLEAN UP VRF
+[11/20/26 17:53:17.026 WET 1C8 356] 10 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:53:17.026 WET 1C9 356] 10 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:53:17.026 WET 1CA 356] 10 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:53:19.028 WET 1CB 356] 12.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:53:19.028 WET 1CC 356] CLEAN UP VRF
+[11/20/26 17:53:19.028 WET 1CD 356] 10 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:53:19.028 WET 1CE 356] 10 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:53:19.028 WET 1CF 356] 11 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:53:19.028 WET 1D0 356] 10 _picw.pcw: CCO wait process exists
+[11/20/26 17:53:19.028 WET 1D1 356] PNP-CCO-WAIT (11): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:53:19.028 WET 1D2 356] 11 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:53:19.028 WET 1D3 356] 10 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:53:21.029 WET 1D4 356] 12.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:53:21.029 WET 1D5 356] 13 _gpwru.prt: Port is 80
+[11/20/26 17:53:21.029 WET 1D6 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:53:21.029 WET 1D7 356] CLEAN UP VRF
+[11/20/26 17:53:21.029 WET 1D8 356] Discovery state change from 2 to 9
+[11/20/26 17:53:21.029 WET 1D9 356] 12 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:53:31.037 WET 1DA 356] Discovery state change from 9 to 2
+[11/20/26 17:53:31.037 WET 1DB 356] 17 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:53:31.037 WET 1DC 356] Platform discovery not required
+[11/20/26 17:53:31.037 WET 1DD 356] 1 spd.drc: PnP Discovery trial number[13]
+[11/20/26 17:53:31.037 WET 1DE 356] WebUI: Not supported on platform
+[11/20/26 17:53:31.037 WET 1DF 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:53:31.037 WET 1E0 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:53:31.037 WET 1E1 356] 11 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:53:31.037 WET 1E2 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:53:31.037 WET 1E3 356] 11 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:53:33.050 WET 1E4 356] 13.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:53:33.050 WET 1E5 356] 11 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:53:33.050 WET 1E6 356] CLEAN UP VRF
+[11/20/26 17:53:33.050 WET 1E7 356] 11 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:53:33.050 WET 1E8 356] 11 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:53:33.050 WET 1E9 356] 11 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:53:35.055 WET 1EA 356] 13.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:53:35.055 WET 1EB 356] CLEAN UP VRF
+[11/20/26 17:53:35.055 WET 1EC 356] 11 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:53:35.055 WET 1ED 356] 11 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:53:35.055 WET 1EE 356] 12 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:53:35.055 WET 1EF 356] 11 _picw.pcw: CCO wait process exists
+[11/20/26 17:53:35.055 WET 1F0 356] PNP-CCO-WAIT (12): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:53:35.055 WET 1F1 356] 12 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:53:35.055 WET 1F2 356] 11 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:53:37.069 WET 1F3 356] 13.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:53:37.069 WET 1F4 356] 14 _gpwru.prt: Port is 80
+[11/20/26 17:53:37.069 WET 1F5 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:53:37.069 WET 1F6 356] CLEAN UP VRF
+[11/20/26 17:53:37.069 WET 1F7 356] Discovery state change from 2 to 9
+[11/20/26 17:53:37.069 WET 1F8 356] 13 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:53:47.070 WET 1F9 356] Discovery state change from 9 to 2
+[11/20/26 17:53:47.070 WET 1FA 356] 18 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:53:47.070 WET 1FB 356] Platform discovery not required
+[11/20/26 17:53:47.070 WET 1FC 356] 1 spd.drc: PnP Discovery trial number[14]
+[11/20/26 17:53:47.070 WET 1FD 356] WebUI: Not supported on platform
+[11/20/26 17:53:47.070 WET 1FE 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:53:47.070 WET 1FF 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:53:47.071 WET 200 356] 12 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:53:47.071 WET 201 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:53:47.071 WET 202 356] 12 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:53:49.078 WET 203 356] 14.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:53:49.078 WET 204 356] 12 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:53:49.078 WET 205 356] CLEAN UP VRF
+[11/20/26 17:53:49.078 WET 206 356] 12 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:53:49.078 WET 207 356] 12 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:53:49.078 WET 208 356] 12 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:53:51.082 WET 209 356] 14.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:53:51.082 WET 20A 356] CLEAN UP VRF
+[11/20/26 17:53:51.082 WET 20B 356] 12 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:53:51.082 WET 20C 356] 12 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:53:51.082 WET 20D 356] 13 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:53:51.082 WET 20E 356] 12 _picw.pcw: CCO wait process exists
+[11/20/26 17:53:51.082 WET 20F 356] PNP-CCO-WAIT (13): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:53:51.082 WET 210 356] 13 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:53:51.082 WET 211 356] 12 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:53:53.083 WET 212 356] 14.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:53:53.083 WET 213 356] 15 _gpwru.prt: Port is 80
+[11/20/26 17:53:53.083 WET 214 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:53:53.083 WET 215 356] CLEAN UP VRF
+[11/20/26 17:53:53.083 WET 216 356] Discovery state change from 2 to 9
+[11/20/26 17:53:53.083 WET 217 356] 14 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:53:58.754 WET 218 376] 1 _pnas.info: ip resolved by auto-install
+[11/20/26 17:53:58.754 WET 219 376] 1 _rpwd: PnP Webui config reverted (4)
+[11/20/26 17:54:03.086 WET 21A 356] Discovery state change from 9 to 2
+[11/20/26 17:54:03.086 WET 21B 356] 19 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:54:03.086 WET 21C 356] Platform discovery not required
+[11/20/26 17:54:03.086 WET 21D 356] 1 spd.drc: PnP Discovery trial number[15]
+[11/20/26 17:54:03.086 WET 21E 356] WebUI: Not supported on platform
+[11/20/26 17:54:03.086 WET 21F 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:54:03.086 WET 220 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:54:03.086 WET 221 356] 13 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:54:03.086 WET 222 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:54:03.086 WET 223 356] 13 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:54:05.095 WET 224 356] 15.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:54:05.095 WET 225 356] 13 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:54:05.095 WET 226 356] CLEAN UP VRF
+[11/20/26 17:54:05.095 WET 227 356] 13 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:54:05.095 WET 228 356] 13 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:54:05.095 WET 229 356] 13 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:54:07.106 WET 22A 356] 15.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:54:07.107 WET 22B 356] CLEAN UP VRF
+[11/20/26 17:54:07.107 WET 22C 356] 13 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:54:07.107 WET 22D 356] 13 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:54:07.107 WET 22E 356] 14 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:54:07.107 WET 22F 356] 13 _picw.pcw: CCO wait process exists
+[11/20/26 17:54:07.107 WET 230 356] PNP-CCO-WAIT (14): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:54:07.107 WET 231 356] 14 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:54:07.107 WET 232 356] 13 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:54:09.156 WET 233 356] 15.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:54:09.156 WET 234 356] 16 _gpwru.prt: Port is 80
+[11/20/26 17:54:09.156 WET 235 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:54:09.156 WET 236 356] CLEAN UP VRF
+[11/20/26 17:54:09.156 WET 237 356] Discovery state change from 2 to 9
+[11/20/26 17:54:09.156 WET 238 356] 15 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:54:19.171 WET 239 356] Discovery state change from 9 to 2
+[11/20/26 17:54:19.171 WET 23A 356] 20 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:54:19.171 WET 23B 356] Platform discovery not required
+[11/20/26 17:54:19.171 WET 23C 356] 1 spd.drc: PnP Discovery trial number[16]
+[11/20/26 17:54:19.171 WET 23D 356] WebUI: Not supported on platform
+[11/20/26 17:54:19.171 WET 23E 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:54:19.171 WET 23F 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:54:19.171 WET 240 356] 14 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:54:19.171 WET 241 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:54:19.171 WET 242 356] 14 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:54:21.185 WET 243 356] 16.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:54:21.185 WET 244 356] 14 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:54:21.185 WET 245 356] CLEAN UP VRF
+[11/20/26 17:54:21.185 WET 246 356] 14 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:54:21.185 WET 247 356] 14 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:54:21.185 WET 248 356] 14 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:54:23.187 WET 249 356] 16.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:54:23.187 WET 24A 356] CLEAN UP VRF
+[11/20/26 17:54:23.187 WET 24B 356] 14 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:54:23.187 WET 24C 356] 14 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:54:23.187 WET 24D 356] 15 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:54:23.187 WET 24E 356] 14 _picw.pcw: CCO wait process exists
+[11/20/26 17:54:23.187 WET 24F 356] PNP-CCO-WAIT (15): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:54:23.187 WET 250 356] 15 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:54:23.187 WET 251 356] 14 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:54:25.189 WET 252 356] 16.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:54:25.189 WET 253 356] 17 _gpwru.prt: Port is 80
+[11/20/26 17:54:25.189 WET 254 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:54:25.189 WET 255 356] CLEAN UP VRF
+[11/20/26 17:54:25.189 WET 256 356] Discovery state change from 2 to 9
+[11/20/26 17:54:25.189 WET 257 356] 16 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:54:35.195 WET 258 356] Discovery state change from 9 to 2
+[11/20/26 17:54:35.195 WET 259 356] 21 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:54:35.195 WET 25A 356] Platform discovery not required
+[11/20/26 17:54:35.195 WET 25B 356] 1 spd.drc: PnP Discovery trial number[17]
+[11/20/26 17:54:35.195 WET 25C 356] WebUI: Not supported on platform
+[11/20/26 17:54:35.195 WET 25D 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:54:35.195 WET 25E 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:54:35.195 WET 25F 356] 15 _pddio.err.pro: Invalid op43 discovered
+[11/20/26 17:54:35.195 WET 260 356] cant discover via dhcp ipv4 op43
+[11/20/26 17:54:35.195 WET 261 356] 15 _pdh4d.wAr.fin: PnP DHCP ipv4 discovery not successful
+[11/20/26 17:54:37.209 WET 262 356] 17.1 _pdm.inf: no ipv6 idb, skipping PnP DHCP ipv6 Discovery
+[11/20/26 17:54:37.209 WET 263 356] 15 _pd4d.info: Starting PnP DNS ipv4 discovery
+[11/20/26 17:54:37.209 WET 264 356] CLEAN UP VRF
+[11/20/26 17:54:37.209 WET 265 356] 15 _pddd.info: Domain Name [-] on Interface [Ethernet0/2]
+[11/20/26 17:54:37.209 WET 266 356] 15 _pddd.wAr.dna: cant obtain good domain name from any interface
+[11/20/26 17:54:37.209 WET 267 356] 15 _pd4d.wAr.fin: PnP DNS ipv4 discovery not successful
+[11/20/26 17:54:39.209 WET 268 356] 17.3 _pdm.inf: no ipv6 idb, skipping PnP DNS ipv6 Discovery
+[11/20/26 17:54:39.209 WET 269 356] CLEAN UP VRF
+[11/20/26 17:54:39.209 WET 26A 356] 15 _pc4d.info: Try without VRF for CCO ipv4 discovery
+[11/20/26 17:54:39.209 WET 26B 356] 15 _pc4d.info: Starting PnP CCO ipv4 discovery
+[11/20/26 17:54:39.209 WET 26C 356] 16 _pcdd.ciw: Check if CCO is waiting
+[11/20/26 17:54:39.209 WET 26D 356] 15 _picw.pcw: CCO wait process exists
+[11/20/26 17:54:39.209 WET 26E 356] PNP-CCO-WAIT (16): Name=[PNPA_CCO_WAIT], OK-To-Run=No, Wait=86400, Last-Wait=0 sec
+	PID=66, Last-PID=4294967295, Created:(T=1/S=1/F=1<truncated>
+[11/20/26 17:54:39.209 WET 26F 356] 16 _pcdd.wir: CCO wait is running. Not trying CCO discovery
+[11/20/26 17:54:39.209 WET 270 356] 15 _pc4d.don: PnP CCO ipv4 discovery not successful
+[11/20/26 17:54:41.214 WET 271 356] 17.5 _pdm.inf: no ipv6 idb, skipping PnP CCO ipv6 Discovery
+[11/20/26 17:54:41.214 WET 272 356] 18 _gpwru.prt: Port is 80
+[11/20/26 17:54:41.214 WET 273 356] Info: PnP profile configuration was unsuccessful
+[11/20/26 17:54:41.214 WET 274 356] CLEAN UP VRF
+[11/20/26 17:54:41.214 WET 275 356] Discovery state change from 2 to 9
+[11/20/26 17:54:41.214 WET 276 356] 17 _pdcr.def: PnP discovery failed on 9
+[11/20/26 17:54:51.215 WET 277 356] Discovery state change from 9 to 2
+[11/20/26 17:54:51.215 WET 278 356] 22 _pisce.wAr.moe: nvram:/startup-config missing or empty
+[11/20/26 17:54:51.215 WET 279 356] Platform discovery not required
+[11/20/26 17:54:51.215 WET 27A 356] 1 spd.drc: PnP Discovery trial number[18]
+[11/20/26 17:54:51.215 WET 27B 356] WebUI: Not supported on platform
+[11/20/26 17:54:51.215 WET 27C 356] 1 spd.idm: Initiating PnP discovery manager
+[11/20/26 17:54:51.215 WET 27D 356] Info: PNP discovery reqd - DHCP Reqd:1
+
+[11/20/26 17:54:51.215 WET 27E 356] 63 _pmaocwi.uec: User has entered console. Not retrying PnP.
+[11/20/26 17:54:51.215 WET 27F 356] Discovery state change from 2 to 4
+[11/20/26 17:54:51.215 WET 280 356] 18 _pdcr.acw: PnP discovery aborted by config wizard
+[11/20/26 17:54:51.215 WET 281 356] 1 spd.dle: PnP Discovery Loop exited on 1.18th run
+[11/20/26 17:54:51.215 WET 282 356] 1 _pdfdnc.don: last_dnc_str=[-]
+[11/20/26 17:54:51.215 WET 283 356] 1 _pbsnmcc.info: no more cw check Yes
+[11/20/26 17:54:51.215 WET 284 356] 1 _pawfprts.ok: Found Press Return to Start (wait=0 sec)
+[11/20/26 17:54:51.216 WET 285 356] 1 _pawffsr.ok: File System ready (wait=0 sec)
+[11/20/26 17:54:51.429 WET 286 356] 1 _paosst.ok: /pnp-tech/pnp-tech-time present (size= 5425, rc=0)
+[11/20/26 17:54:51.430 WET 287 356] Can not get RF op mode after 2 retries.
+478 entries printed
+
+
+------------------ show pnp history ----------------
+
+[11/20/26 17:50:16.401 WET 1 356] 1: -uf- T:26, Job 1:PnP Bootstrap Service, Elapsed:1 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:50:16.401 WET 2 356] 2: -uf- T:26, Job 2:PnP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:50:26.403 WET 3 356] 3: -uf- T:10028, Job 3:PnP Bootstrap Service, Elapsed:2 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:50:26.403 WET 4 356] 4: -uf- T:10028, Job 4:PnP Discovery Service, Elapsed:2 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:50:31.510 WET 5 376] 5: ---- T:15135, Job 5:PnP Config-Change Service, Elapsed:4 ms, Status: Success, -: Running Config Change Done
+[11/20/26 17:50:31.525 WET 6 376] 6: ---- T:15150, Job 6:PnP Config-Change Service, Elapsed:1 ms, Status: Success, -: Running Config Change Done
+[11/20/26 17:50:36.405 WET 7 356] 7: -uf- T:20030, Job 7:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:50:38.406 WET 8 356] 8: -uf- T:22031, Job 8:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:50:40.848 WET 9 356] 9: <--> T:24473, Job 9:PnP Hello Service, Elapsed:421 ms, Status: Success, -: https://devicehelper.cisco.com.:443/pnp/HELLO
+[11/20/26 17:50:40.869 WET A 356] 10: -1f- T:24494, Job 10:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET B 356] 11: -1f- T:24494, Job 11:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET C 356] 12: -1f- T:24494, Job 12:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET D 356] 13: -1f- T:24494, Job 13:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET E 356] 14: -1f- T:24494, Job 14:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET F 356] 15: -1f- T:24494, Job 15:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 10 356] 16: -1f- T:24494, Job 16:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 11 356] 17: -1f- T:24494, Job 17:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 12 356] 18: -1f- T:24494, Job 18:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 13 356] 19: -1f- T:24494, Job 19:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 14 356] 20: -1f- T:24494, Job 20:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 15 356] 21: -1f- T:24494, Job 21:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 16 356] 22: -1f- T:24494, Job 22:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 17 356] 23: -1f- T:24494, Job 23:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 18 356] 24: -1f- T:24494, Job 24:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 19 356] 25: -1f- T:24494, Job 25:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1A 356] 26: -1f- T:24494, Job 26:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1B 356] 27: -1f- T:24494, Job 27:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1C 356] 28: -1f- T:24494, Job 28:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1D 356] 29: -1f- T:24494, Job 29:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1E 356] 30: -1f- T:24494, Job 30:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 1F 356] 31: -1f- T:24494, Job 31:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 20 356] 32: -1f- T:24494, Job 32:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 21 356] 33: -1f- T:24494, Job 33:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 22 356] 34: -1f- T:24494, Job 34:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 23 356] 35: -1f- T:24494, Job 35:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 24 356] 36: -1f- T:24494, Job 36:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 25 356] 37: -1f- T:24494, Job 37:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.869 WET 26 356] 38: -1f- T:24494, Job 38:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:40.870 WET 27 89] 39: .zz. T:24495, Job 39:PnP Work-Req Service, Elapsed:25561 ms, Status: TimerStopped, WorkReqCorr: -
+[11/20/26 17:50:40.870 WET 28 89] 40: -1f- T:24495, Job 40:PnP Work-Req Service, Elapsed:1 ms, Status: Failed, WorkReqCorr: -
+[11/20/26 17:50:41.872 WET 29 356] 41: -1-> T:25497, Job 41:PnP Work-Req Service, Elapsed:1 ms, Status: Success, WorkReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:41.873 WET 2A 356] 42: ---- T:25498, Job 42:PnP Config-Change Service, Elapsed:1004 ms, Status: Success, -: Running Config Change Done
+[11/20/26 17:50:41.874 WET 2B 89] 43: .zz. T:25499, Job 43:PnP Work-Req Service, Elapsed:1004 ms, Status: TimerStopped, WorkReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:41.874 WET 2C 89] 44: .!!. T:25499, Job 44:PnP Work-Req Service, Elapsed:1 ms, Status: TimerStarted, WorkReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.308 WET 2D 89] 45: <-2- T:25933, Job 45:PnP Work-Backoff Service, Elapsed:1 ms, Status: Success, PnPReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.308 WET 2E 89] 46: -3-> T:25933, Job 46:PnP Response Service, Elapsed:1 ms, Status: Success, PnPRespCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.309 WET 2F 89] 47: .zz. T:25933, Job 47:PnP Work-Req Service, Elapsed:434 ms, Status: TimerStopped, WorkReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.309 WET 30 89] 48: .!!. T:25934, Job 48:PnP Work-Req Service, Elapsed:1 ms, Status: TimerStarted, WorkReqCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.419 WET 31 89] 49: <-4- T:26044, Job 49:PnP Work-Info Service, Elapsed:1 ms, Status: Success, PnPByeCorr: CiscoPnP-1.0-R35.201014-I1-P356-T25497-2
+[11/20/26 17:50:42.419 WET 32 89] 50:  :-) Goodbye #(1) [CiscoPnP-1.0-R35.201014-I1-P356-T25497-2]
+
+[11/20/26 17:50:54.878 WET 33 356] 51: -uf- T:38503, Job 50:PnP Config-Change Service, Elapsed:14009 ms, Status: Failed, -: Running Config Change Aborted
+[11/20/26 17:50:54.880 WET 34 356] 52: -uf- T:38505, Job 51:PnP Config-Change Service, Elapsed:14011 ms, Status: Failed, -: Running Config Change Aborted
+[11/20/26 17:50:54.881 WET 35 356] 53: -uf- T:38506, Job 52:PnP CCO Discovery Service, Elapsed:14474 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:50:56.883 WET 36 356] 54: -uf- T:40508, Job 53:PnP Bootstrap Service, Elapsed:20479 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:50:56.883 WET 37 356] 55: -uf- T:40508, Job 54:PnP Discovery Service, Elapsed:20479 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:51:06.890 WET 38 356] 56: -uf- T:50515, Job 55:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:51:08.892 WET 39 356] 57: -uf- T:52517, Job 56:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:51:10.904 WET 3A 356] 58: -uf- T:54529, Job 57:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:51:12.909 WET 3B 356] 59: -uf- T:56534, Job 58:PnP Bootstrap Service, Elapsed:6020 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:51:12.909 WET 3C 356] 60: -uf- T:56534, Job 59:PnP Discovery Service, Elapsed:6020 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:51:22.913 WET 3D 356] 61: -uf- T:66538, Job 60:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:51:24.914 WET 3E 356] 62: -uf- T:68539, Job 61:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:51:26.918 WET 3F 356] 63: -uf- T:70543, Job 62:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:51:28.918 WET 40 356] 64: -uf- T:72543, Job 63:PnP Bootstrap Service, Elapsed:6006 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:51:28.918 WET 41 356] 65: -uf- T:72543, Job 64:PnP Discovery Service, Elapsed:6006 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:51:38.918 WET 42 356] 66: -uf- T:82543, Job 65:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:51:40.921 WET 43 356] 67: -uf- T:84545, Job 66:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:51:42.927 WET 44 356] 68: -uf- T:86552, Job 67:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:51:44.928 WET 45 356] 69: -uf- T:88553, Job 68:PnP Bootstrap Service, Elapsed:6010 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:51:44.928 WET 46 356] 70: -uf- T:88553, Job 69:PnP Discovery Service, Elapsed:6010 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:51:54.933 WET 47 356] 71: -uf- T:98558, Job 70:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:51:56.936 WET 48 356] 72: -uf- T:100561, Job 71:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:51:58.947 WET 49 356] 73: -uf- T:102572, Job 72:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:52:00.948 WET 4A 356] 74: -uf- T:104573, Job 73:PnP Bootstrap Service, Elapsed:6015 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:52:00.948 WET 4B 356] 75: -uf- T:104573, Job 74:PnP Discovery Service, Elapsed:6015 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:52:10.951 WET 4C 356] 76: -uf- T:114576, Job 75:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:52:12.953 WET 4D 356] 77: -uf- T:116578, Job 76:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:52:14.961 WET 4E 356] 78: -uf- T:118586, Job 77:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:52:16.967 WET 4F 356] 79: -uf- T:120592, Job 78:PnP Bootstrap Service, Elapsed:6017 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:52:16.967 WET 50 356] 80: -uf- T:120592, Job 79:PnP Discovery Service, Elapsed:6017 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:52:26.968 WET 51 356] 81: -uf- T:130593, Job 80:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:52:28.971 WET 52 356] 82: -uf- T:132596, Job 81:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:52:30.972 WET 53 356] 83: -uf- T:134596, Job 82:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:52:32.976 WET 54 356] 84: -uf- T:136601, Job 83:PnP Bootstrap Service, Elapsed:6008 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:52:32.976 WET 55 356] 85: -uf- T:136601, Job 84:PnP Discovery Service, Elapsed:6008 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:52:42.980 WET 56 356] 86: -uf- T:146605, Job 85:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:52:44.983 WET 57 356] 87: -uf- T:148608, Job 86:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:52:46.984 WET 58 356] 88: -uf- T:150609, Job 87:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:52:48.985 WET 59 356] 89: -uf- T:152610, Job 88:PnP Bootstrap Service, Elapsed:6005 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:52:48.985 WET 5A 356] 90: -uf- T:152610, Job 89:PnP Discovery Service, Elapsed:6005 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:52:58.989 WET 5B 356] 91: -uf- T:162614, Job 90:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:53:00.998 WET 5C 356] 92: -uf- T:164623, Job 91:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:53:03.005 WET 5D 356] 93: -uf- T:166630, Job 92:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:53:05.013 WET 5E 356] 94: -uf- T:168638, Job 93:PnP Bootstrap Service, Elapsed:6024 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:53:05.013 WET 5F 356] 95: -uf- T:168638, Job 94:PnP Discovery Service, Elapsed:6024 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:53:15.014 WET 60 356] 96: -uf- T:178639, Job 95:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:53:17.026 WET 61 356] 97: -uf- T:180651, Job 96:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:53:19.028 WET 62 356] 98: -uf- T:182653, Job 97:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:53:21.029 WET 63 356] 99: -uf- T:184654, Job 98:PnP Bootstrap Service, Elapsed:6015 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:53:21.029 WET 64 356] 100: -uf- T:184654, Job 99:PnP Discovery Service, Elapsed:6015 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:53:31.037 WET 65 356] 101: -uf- T:194662, Job 100:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:53:33.050 WET 66 356] 102: -uf- T:196675, Job 101:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:53:35.055 WET 67 356] 103: -uf- T:198680, Job 102:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:53:37.069 WET 68 356] 104: -uf- T:200694, Job 103:PnP Bootstrap Service, Elapsed:6032 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:53:37.069 WET 69 356] 105: -uf- T:200694, Job 104:PnP Discovery Service, Elapsed:6032 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:53:47.071 WET 6A 356] 106: -uf- T:210696, Job 105:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:53:49.078 WET 6B 356] 107: -uf- T:212703, Job 106:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:53:51.082 WET 6C 356] 108: -uf- T:214707, Job 107:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:53:53.083 WET 6D 356] 109: -uf- T:216708, Job 108:PnP Bootstrap Service, Elapsed:6013 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:53:53.083 WET 6E 356] 110: -uf- T:216708, Job 109:PnP Discovery Service, Elapsed:6013 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:54:03.086 WET 6F 356] 111: -uf- T:226711, Job 110:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:54:05.095 WET 70 356] 112: -uf- T:228720, Job 111:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:54:07.107 WET 71 356] 113: -uf- T:230732, Job 112:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:54:09.156 WET 72 356] 114: -uf- T:232781, Job 113:PnP Bootstrap Service, Elapsed:6070 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:54:09.156 WET 73 356] 115: -uf- T:232781, Job 114:PnP Discovery Service, Elapsed:6070 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:54:19.171 WET 74 356] 116: -uf- T:242796, Job 115:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:54:21.185 WET 75 356] 117: -uf- T:244810, Job 116:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:54:23.187 WET 76 356] 118: -uf- T:246812, Job 117:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:54:25.189 WET 77 356] 119: -uf- T:248814, Job 118:PnP Bootstrap Service, Elapsed:6018 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:54:25.189 WET 78 356] 120: -uf- T:248814, Job 119:PnP Discovery Service, Elapsed:6018 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:54:35.195 WET 79 356] 121: -uf- T:258820, Job 120:PnP DHCP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DHCP ipv4 Discovery
+[11/20/26 17:54:37.209 WET 7A 356] 122: -uf- T:260834, Job 121:PnP DNS Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP DNS ipv4 Discovery
+[11/20/26 17:54:39.209 WET 7B 356] 123: -uf- T:262834, Job 122:PnP CCO Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP CCO ipv4 Discovery
+[11/20/26 17:54:41.214 WET 7C 356] 124: -uf- T:264839, Job 123:PnP Bootstrap Service, Elapsed:6019 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:54:41.214 WET 7D 356] 125: -uf- T:264839, Job 124:PnP Discovery Service, Elapsed:6019 ms, Status: Failed, -: PnP Discovery Loop
+[11/20/26 17:54:51.215 WET 7E 356] 126: -uf- T:274840, Job 125:PnP Bootstrap Service, Elapsed:1 ms, Status: Failed, -: PnP Bootstrap Stop
+[11/20/26 17:54:51.215 WET 7F 356] 127: -uf- T:274840, Job 126:PnP Discovery Service, Elapsed:1 ms, Status: Failed, -: PnP Discovery Loop
+127 entries printed
+
+
+------------------ show pnp diag ------------------
+
+[11/20/26 17:50:16.375 WET 1 3] 1 _paadi.info: Platform mode change registry not present
+[11/20/26 17:50:16.375 WET 2 3] 2 _paadi.info: Platform mode change registry not present
+[11/20/26 17:50:16.400 WET 3 356] 1 _parss.wfs: startup_waited_ok = 1
+[11/20/26 17:50:16.400 WET 4 356] 1 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:16.400 WET 5 356] 1.1 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:50:16.401 WET 6 356] 23 _pas.wAr.buf: empty buffer
+[11/20/26 17:50:26.401 WET 7 356] 2 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:26.401 WET 8 356] 2.2 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:50:26.403 WET 9 356] 36 _pas.wAr.buf: empty buffer
+[11/20/26 17:50:36.404 WET A 356] 3 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:36.404 WET B 356] 3.3 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:50:40.868 WET C 356] 1 _xana.mLc: 9E3182C8 (360 bytes)
+[11/20/26 17:50:40.868 WET D 356] 3 _paadi.info: _xnc.info: xep node created
+[11/20/26 17:50:40.869 WET E 356] 4 _paadi.info: _xnc.info: xep initiator ok
+[11/20/26 17:50:40.870 WET F 356] 5 _paadi.info: _xnc.info: xep initiator ok
+[11/20/26 17:50:41.872 WET 10 356] 4 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:41.872 WET 11 356] 5 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:41.872 WET 12 356] 1 _pdgmas.wAr.pma: Mac address not set by platform
+[11/20/26 17:50:41.874 WET 13 356] PNP-CONFIG (1.0): config [pnp profile pnp_cco_profile
+transport https host devicehelper.cisco.com. port 443 remotecert RXC_Trustpool
+end
+] OK
+[11/20/26 17:50:41.874 WET 14 356] PNP-CONFIG (1): config [pnp profile pnp_cco_profile
+transport https host devicehelper.cisco.com. port 443 remotecert RXC_Trustpool
+end
+] OK, retry=0, wait_interval=5
+[11/20/26 17:50:42.308 WET 15 89] 6 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.308 WET 16 89] 7 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.308 WET 17 89] 8 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.308 WET 18 89] 9 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.308 WET 19 89] 10 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.308 WET 1A 89] 11 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.418 WET 1B 89] 12 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:42.418 WET 1C 89] 13 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:50:54.878 WET 1D 356] PNP-CONFIG (2.0): config [no pnp profile pnp_cco_profile
+end
+] OK
+[11/20/26 17:50:54.878 WET 1E 356] PNP-PROFILE (1): profile [no pnp profile pnp_cco_profile
+end
+] deleted OK, retry=0, wait_interval=5
+[11/20/26 17:50:56.883 WET 1F 356] 168 _pas.wAr.buf: empty buffer
+[11/20/26 17:51:06.889 WET 20 356] 14 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:51:06.889 WET 21 356] 4.4 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:51:12.909 WET 22 356] 187 _pas.wAr.buf: empty buffer
+[11/20/26 17:51:22.912 WET 23 356] 15 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:51:22.912 WET 24 356] 5.5 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:51:28.918 WET 25 356] 206 _pas.wAr.buf: empty buffer
+[11/20/26 17:51:38.918 WET 26 356] 16 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:51:38.918 WET 27 356] 6.6 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:51:44.928 WET 28 356] 225 _pas.wAr.buf: empty buffer
+[11/20/26 17:51:54.933 WET 29 356] 17 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:51:54.933 WET 2A 356] 7.7 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:52:00.948 WET 2B 356] 244 _pas.wAr.buf: empty buffer
+[11/20/26 17:52:10.950 WET 2C 356] 18 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:52:10.950 WET 2D 356] 8.8 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:52:16.967 WET 2E 356] 263 _pas.wAr.buf: empty buffer
+[11/20/26 17:52:26.968 WET 2F 356] 19 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:52:26.968 WET 30 356] 9.9 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:52:32.976 WET 31 356] 282 _pas.wAr.buf: empty buffer
+[11/20/26 17:52:42.980 WET 32 356] 20 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:52:42.980 WET 33 356] 10.10 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:52:48.985 WET 34 356] 301 _pas.wAr.buf: empty buffer
+[11/20/26 17:52:58.989 WET 35 356] 21 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:52:58.989 WET 36 356] 11.11 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:53:05.013 WET 37 356] 320 _pas.wAr.buf: empty buffer
+[11/20/26 17:53:15.014 WET 38 356] 22 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:53:15.014 WET 39 356] 12.12 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:53:21.029 WET 3A 356] 339 _pas.wAr.buf: empty buffer
+[11/20/26 17:53:31.037 WET 3B 356] 23 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:53:31.037 WET 3C 356] 13.13 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:53:37.069 WET 3D 356] 358 _pas.wAr.buf: empty buffer
+[11/20/26 17:53:47.070 WET 3E 356] 24 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:53:47.070 WET 3F 356] 14.14 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:53:53.083 WET 40 356] 377 _pas.wAr.buf: empty buffer
+[11/20/26 17:54:03.086 WET 41 356] 25 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:03.086 WET 42 356] 15.15 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:54:09.156 WET 43 356] 396 _pas.wAr.buf: empty buffer
+[11/20/26 17:54:19.171 WET 44 356] 26 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:19.171 WET 45 356] 16.16 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:54:25.189 WET 46 356] 415 _pas.wAr.buf: empty buffer
+[11/20/26 17:54:35.195 WET 47 356] 27 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:35.195 WET 48 356] 17.17 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:54:41.214 WET 49 356] 434 _pas.wAr.buf: empty buffer
+[11/20/26 17:54:51.215 WET 4A 356] 28 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:51.215 WET 4B 356] 18.18 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:54:51.215 WET 4C 356] 29 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:51.215 WET 4D 356] 19.19 _psutn.info: send this device UDI [PID:Unix,VID:,SN:2048006] for CDP
+[11/20/26 17:54:51.215 WET 4E 356] 1 _pimid.don: inventory allocated ok (9E329580)
+[11/20/26 17:54:51.215 WET 4F 356] Peer is disabled. Will not wait for peer
+[11/20/26 17:54:51.215 WET 50 356] Peer is ready/disabled
+[11/20/26 17:54:51.216 WET 51 356] 1 _pigfi.don: file info collected (elapsed=0 sec)
+[11/20/26 17:54:51.216 WET 52 356] 1 _pafsr.don: 2 file system found
+[11/20/26 17:54:51.430 WET 53 356] 30 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:51.430 WET 54 356] 31 _pdgus: Good UDI:[PID:Unix,VID:,SN:2048006]
+[11/20/26 17:54:51.430 WET 55 356] 2 _pimid.don: inventory allocated ok (9E329580)
+[11/20/26 17:54:51.430 WET 56 356] 
+PnP inventory image information
+	Image version:[17.15.1]
+	Image name:[unix:/home/tiago/GNS3/images/IOU/x86_64_crb_linux-adventerprisek9-ms]
+	Return to rommon reason:[unknown reload cause - suspect boot_data[BOOT_COUNT] 0x9, BOOT_COUNT 0, BOOTDATA 19]
+	Diag variable:<truncated>
+[11/20/26 17:54:51.430 WET 57 356] 3 _pimid.don: inventory allocated ok (9E329580)
+[11/20/26 17:54:51.430 WET 58 356] 
+PnP inventory hardware information
+	Host name:[router]
+	Vendor:[Linux]
+	Platform name:[Unix]
+	Processor type:[i686]
+	Hardware<truncated>
+[11/20/26 17:54:51.430 WET 59 356] 4 _pimid.don: inventory allocated ok (9E329580)
+[11/20/26 17:54:51.430 WET 5A 356] Peer is disabled. Will not wait for peer
+[11/20/26 17:54:51.430 WET 5B 356] Peer is ready/disabled
+[11/20/26 17:54:51.430 WET 5C 356] 2 _pigfi.don: file info collected (elapsed=0 sec)
+[11/20/26 17:54:51.430 WET 5D 356] 5 _pimid.don: inventory allocated ok (9E329580)
+[11/20/26 17:54:51.430 WET 5E 356] 1 _pipi.eRr.gfp: Failed to get profile head pointer
+[11/20/26 17:54:51.431 WET 5F 356] 1 _ptgt.eRr.cwh: cant find cdp entry
+[11/20/26 17:54:51.431 WET 60 356] 1 Interface info: get all interface success
+96 entries printed
+
+
+----------- show pnp monitor logging ----------------
+
+[11/20/26 17:50:16.375 WET 1 3] 1 _ppmgd.cwd: Creating ppm wait data.
+[11/20/26 17:50:16.375 WET 2 3] 1 _psmgd.cwd: Creating psm wait data.
+[11/20/26 17:50:16.375 WET 3 3] 1 _pttmgd.cwd: Creating ttm wait data.
+[11/20/26 17:50:16.375 WET 4 3] _pttmi.rat: reg_add_tls_notify_tunnel_state
+[11/20/26 17:50:16.375 WET 5 3] 1 _psmgd.cwd: Creating psm wait data.
+[11/20/26 17:50:16.375 WET 6 3] 1 _pcmgd.cwd: Creating psm wait data.
+[11/20/26 17:50:16.375 WET 7 3] 1 _psmgd.cwd: Creating psm wait data.
+[11/20/26 17:50:16.375 WET 8 3] 1 _psmgd.cwd: Creating psm wait data.
+[11/20/26 17:50:16.375 WET 9 3] 1 _pimgd.cwd: Creating pim wait data.
+[11/20/26 17:50:16.375 WET A 3] 1 _pmpc.don: process [PnP-Monitor] created
+[11/20/26 17:50:31.510 WET B 376] Event-Notify.17:[pnp-config-change]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[1] by:[pid=376, pname=DHCP Autoinstall] at:[17:50:31 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:31.510 WET C 376] 1 _pmpnew.don: event_watcher set
+[11/20/26 17:50:31.510 WET D 376] PNP-MONITOR 1 _pmmnewp.don: event=[pnp-config-change], notified by [pid=376, pname=DHCP Autoinstall] at [17:50:31 WET Fri Nov 20 2026] reason [config-change-done]  progress (100%) OK
+[11/20/26 17:50:31.510 WET E 376] 1 _xmnse.don: Notify event [pnp-config-change] by [pid=376, pname=DHCP Autoinstall] at [17:50:31 WET Fri Nov 20 2026] reason [config-change-done] progress (100%%)
+
+[11/20/26 17:50:31.525 WET F 376] Event-Notify.17:[pnp-config-change]: TotalNotified:2, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[2] by:[pid=376, pname=DHCP Autoinstall] at:[17:50:31 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[1] by:[pid=376, pname=DHCP Autoinstall] at:[17:50:31 WET Fri Nov 20 2026] reason:[config-change-done], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:31.525 WET 10 376] 2 _pmpnew.don: event_watcher set
+[11/20/26 17:50:31.525 WET 11 376] PNP-MONITOR 2 _pmmnewp.don: event=[pnp-config-change], notified by [pid=376, pname=DHCP Autoinstall] at [17:50:31 WET Fri Nov 20 2026] reason [config-change-done]  progress (100%) OK
+[11/20/26 17:50:31.525 WET 12 376] 2 _xmnse.don: Notify event [pnp-config-change] by [pid=376, pname=DHCP Autoinstall] at [17:50:31 WET Fri Nov 20 2026] reason [config-change-done] progress (100%%)
+
+[11/20/26 17:50:31.525 WET 13 355] 1 _pmpjne.don: watch_id=[-], pmen_type=[pnp-config-change], pmew_type=[pnp-config-tracking], notified: by=[pid=376, pname=DHCP Autoinstall], at=[17:50:31 WET Fri Nov 20 2026], reason=[config-change-done], progress=100%%
+[11/20/26 17:50:40.868 WET 14 356] Event-Notify.2:[pnp-profile-added]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[3] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:40 WET Fri Nov 20 2026] reason:[PnP Profile [pnp_cco_profile] created], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.2.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:40.868 WET 15 356] 3 _pmpnew.don: event_watcher set
+[11/20/26 17:50:40.868 WET 16 356] PNP-MONITOR 3 _pmmnewp.don: event=[pnp-profile-added], notified by [pid=356, pname=PnP Agent Discovery] at [17:50:40 WET Fri Nov 20 2026] reason [PnP Profile [pnp_cco_profile] created]  progress (0%) OK
+[11/20/26 17:50:40.868 WET 17 356] 3 _xmnse.don: Notify event [pnp-profile-added] by [pid=356, pname=PnP Agent Discovery] at [17:50:40 WET Fri Nov 20 2026] reason [PnP Profile [pnp_cco_profile] created] progress (0%%)
+
+[11/20/26 17:50:40.870 WET 18 355] 1 _ppmpe.eRr.wid: null watch_id for event [pnp-profile-added]
+[11/20/26 17:50:40.870 WET 19 355] 1 _pttmpe.eRr.wid: null watch_id for event [pnp-profile-added]
+[11/20/26 17:50:40.870 WET 1A 355] 2 _pmpjne.don: watch_id=[-], pmen_type=[pnp-profile-added], pmew_type=[pnp-profile-tracking], notified: by=[pid=356, pname=PnP Agent Discovery], at=[17:50:40 WET Fri Nov 20 2026], reason=[PnP Profile [pnp_cco_profile] created], progress=0%%
+[11/20/26 17:50:41.873 WET 1B 356] Event-Notify.17:[pnp-config-change]: TotalNotified:3, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[4] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:41 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[2] by:[pid=376, pname=DHCP Autoinstall] at:[17:50:31 WET Fri Nov 20 2026] reason:[config-change-done], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:41.873 WET 1C 356] 4 _pmpnew.don: event_watcher set
+[11/20/26 17:50:41.873 WET 1D 356] PNP-MONITOR 4 _pmmnewp.don: event=[pnp-config-change], notified by [pid=356, pname=PnP Agent Discovery] at [17:50:41 WET Fri Nov 20 2026] reason [config-change-done]  progress (100%) OK
+[11/20/26 17:50:41.873 WET 1E 356] 4 _xmnse.don: Notify event [pnp-config-change] by [pid=356, pname=PnP Agent Discovery] at [17:50:41 WET Fri Nov 20 2026] reason [config-change-done] progress (100%%)
+
+[11/20/26 17:50:41.875 WET 1F 355] 3 _pmpjne.don: watch_id=[-], pmen_type=[pnp-config-change], pmew_type=[pnp-config-tracking], notified: by=[pid=356, pname=PnP Agent Discovery], at=[17:50:41 WET Fri Nov 20 2026], reason=[config-change-done], progress=100%%
+[11/20/26 17:50:42.308 WET 20 89] Event-Notify.14:[pnp-service-start]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[5] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-started], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.14.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:42.308 WET 21 89] 5 _pmpnew.don: event_watcher set
+[11/20/26 17:50:42.308 WET 22 89] PNP-MONITOR 5 _pmmnewp.don: event=[pnp-service-start], notified by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-backoff-service-started]  progress (5%) OK
+[11/20/26 17:50:42.308 WET 23 89] 5 _xmnse.don: Notify event [pnp-service-start] by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-backoff-service-started] progress (5%%)
+
+[11/20/26 17:50:42.308 WET 24 89] Event-Notify.16:[pnp-service-stop]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[6] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-ok], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.16.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:42.308 WET 25 89] 6 _pmpnew.don: event_watcher set
+[11/20/26 17:50:42.308 WET 26 89] PNP-MONITOR 6 _pmmnewp.don: event=[pnp-service-stop], notified by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-backoff-service-ok]  progress (100%) OK
+[11/20/26 17:50:42.308 WET 27 89] 6 _xmnse.don: Notify event [pnp-service-stop] by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-backoff-service-ok] progress (100%%)
+
+[11/20/26 17:50:42.309 WET 28 355] 4 _pmpjne.don: watch_id=[-], pmen_type=[pnp-service-stop], pmew_type=[pnp-service-tracking], notified: by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], at=[17:50:42 WET Fri Nov 20 2026], reason=[pnp-backoff-service-ok], progress=100%%
+[11/20/26 17:50:42.418 WET 29 89] Event-Notify.14:[pnp-service-start]: TotalNotified:2, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[7] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-bye-service-started], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.14.ID:[5] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-started], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:42.418 WET 2A 89] 7 _pmpnew.don: event_watcher set
+[11/20/26 17:50:42.418 WET 2B 89] PNP-MONITOR 7 _pmmnewp.don: event=[pnp-service-start], notified by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-bye-service-started]  progress (5%) OK
+[11/20/26 17:50:42.418 WET 2C 89] 7 _xmnse.don: Notify event [pnp-service-start] by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-bye-service-started] progress (5%%)
+
+[11/20/26 17:50:42.419 WET 2D 89] Event-Notify.16:[pnp-service-stop]: TotalNotified:2, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[8] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-bye-service-ok], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.16.ID:[6] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp-backoff-service-ok], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:42.419 WET 2E 89] 8 _pmpnew.don: event_watcher set
+[11/20/26 17:50:42.419 WET 2F 89] PNP-MONITOR 8 _pmmnewp.don: event=[pnp-service-stop], notified by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-bye-service-ok]  progress (100%) OK
+[11/20/26 17:50:42.419 WET 30 89] 8 _xmnse.don: Notify event [pnp-service-stop] by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp-bye-service-ok] progress (100%%)
+
+[11/20/26 17:50:42.419 WET 31 89] Event-Notify.7:[pnp-server-reachable]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[9] by:[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at:[17:50:42 WET Fri Nov 20 2026] reason:[pnp_cco_profile], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.7.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:42.419 WET 32 89] 9 _pmpnew.don: event_watcher set
+[11/20/26 17:50:42.419 WET 33 89] PNP-MONITOR 9 _pmmnewp.don: event=[pnp-server-reachable], notified by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp_cco_profile]  progress (100%) OK
+[11/20/26 17:50:42.419 WET 34 89] 9 _xmnse.don: Notify event [pnp-server-reachable] by [profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443] at [17:50:42 WET Fri Nov 20 2026] reason [pnp_cco_profile] progress (100%%)
+
+[11/20/26 17:50:42.419 WET 35 355] 5 _pmpjne.don: watch_id=[-], pmen_type=[pnp-server-reachable], pmew_type=[pnp-server-tracking], notified: by=[profile=pnp_cco_profile, host=devicehelper.cisco.com., port=443], at=[17:50:42 WET Fri Nov 20 2026], reason=[pnp_cco_profile], progress=100%%
+[11/20/26 17:50:54.878 WET 36 356] Event-Notify.4:[pnp-profile-deleted]: TotalNotified:1, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[10] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[PnP Profile [pnp_cco_profile] deleted], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.4.ID:[0] by:[-] at:[-] reason:[-], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:54.878 WET 37 356] 10 _pmpnew.don: event_watcher set
+[11/20/26 17:50:54.878 WET 38 356] PNP-MONITOR 10 _pmmnewp.don: event=[pnp-profile-deleted], notified by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [PnP Profile [pnp_cco_profile] deleted]  progress (0%) OK
+[11/20/26 17:50:54.878 WET 39 356] 10 _xmnse.don: Notify event [pnp-profile-deleted] by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [PnP Profile [pnp_cco_profile] deleted] progress (0%%)
+
+[11/20/26 17:50:54.878 WET 3A 356] Event-Notify.17:[pnp-config-change]: TotalNotified:4, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[11] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[4] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:41 WET Fri Nov 20 2026] reason:[config-change-done], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:54.878 WET 3B 356] 11 _pmpnew.don: event_watcher set
+[11/20/26 17:50:54.878 WET 3C 356] PNP-MONITOR 11 _pmmnewp.don: event=[pnp-config-change], notified by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [config-change-done]  progress (100%) OK
+[11/20/26 17:50:54.878 WET 3D 356] 11 _xmnse.don: Notify event [pnp-config-change] by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [config-change-done] progress (100%%)
+
+[11/20/26 17:50:54.881 WET 3E 356] Event-Notify.17:[pnp-config-change]: TotalNotified:5, TotalAcked=0, MustNotifyServerNow:No, MustWakeupServerNow:No, JustNotified.ID:[12] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[config-change-done], JustNotifyAck.Waiting:No, acked.by:[-] at:[-]
+	LastNotified.17.ID:[11] by:[pid=356, pname=PnP Agent Discovery] at:[17:50:54 WET Fri Nov 20 2026] reason:[config-change-done], LastNotifyAck.Waiting:No, acked.by:[-] at:[-]
+
+[11/20/26 17:50:54.881 WET 3F 356] 12 _pmpnew.don: event_watcher set
+[11/20/26 17:50:54.881 WET 40 356] PNP-MONITOR 12 _pmmnewp.don: event=[pnp-config-change], notified by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [config-change-done]  progress (100%) OK
+[11/20/26 17:50:54.881 WET 41 356] 12 _xmnse.don: Notify event [pnp-config-change] by [pid=356, pname=PnP Agent Discovery] at [17:50:54 WET Fri Nov 20 2026] reason [config-change-done] progress (100%%)
+
+[11/20/26 17:50:54.881 WET 42 355] 6 _pmpjne.don: watch_id=[-], pmen_type=[pnp-config-change], pmew_type=[pnp-config-tracking], notified: by=[pid=356, pname=PnP Agent Discovery], at=[17:50:54 WET Fri Nov 20 2026], reason=[config-change-done], progress=100%%
+66 entries printed
+
+
+---------- show pnp auto-install tech-support ---------
+IPv4 Status         : Failed
+DHCP Server         : 192.168.122.1
+TFTP Server         : 255.255.255.255
+Network Config File : 
+Device Config File  : 
+Device Image File   : 
+IPv6 Status         : Not started
+IPv6 Device Config File  : 
+AutoIP Status         : FAIL
+No Auto IP data
+[11/20/26 17:50:16.436 WET 1 376] autoinstall: start-up config empty
+[11/20/26 17:50:16.436 WET 2 376] autoinstall: autoinstall starting
+[11/20/26 17:50:16.436 WET 3 376] No startup-config, starting autoinstall...
+[11/20/26 17:50:16.436 WET 4 376] AUTO IP disabled: AUTO IP is not supported in this platform or in Autonomous mode
+[11/20/26 17:50:16.436 WET 5 376] Ethernet0/0 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 6 376] Ethernet0/1 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 7 376] Ethernet0/2 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 8 376] Ethernet0/3 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 9 376] Ethernet1/0 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET A 376] Ethernet1/1 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET B 376] Ethernet1/2 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET C 376] Ethernet1/3 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:16.437 WET D 376] Serial2/0 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET E 376] Serial2/1 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET F 376] Serial2/2 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 10 376] Serial2/3 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 11 376] Serial3/0 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 12 376] Serial3/1 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 13 376] Serial3/2 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 14 376] Serial3/3 - Interface_up: False, Is_lan: False, Ip_enabled: True
+[11/20/26 17:50:16.437 WET 15 376] Autoinstall trying DHCPv4 on Ethernet0/0
+[11/20/26 17:50:16.437 WET 16 376] Autoinstall trying DHCPv4 on Ethernet0/1
+[11/20/26 17:50:16.437 WET 17 376] Autoinstall trying DHCPv4 on Ethernet0/2
+[11/20/26 17:50:16.437 WET 18 376] Autoinstall trying DHCPv4 on Ethernet0/3
+[11/20/26 17:50:16.437 WET 19 376] Autoinstall trying DHCPv4 on Ethernet1/0
+[11/20/26 17:50:16.437 WET 1A 376] Autoinstall trying DHCPv4 on Ethernet1/1
+[11/20/26 17:50:16.437 WET 1B 376] Autoinstall trying DHCPv4 on Ethernet1/2
+[11/20/26 17:50:16.437 WET 1C 376] Autoinstall trying DHCPv4 on Ethernet1/3
+[11/20/26 17:50:23.463 WET 1D 375] DHCP ip assigned flag = 1
+[11/20/26 17:50:31.438 WET 1E 376] AUTO IP disabled: AUTO IP is not supported in this platform or in Autonomous mode
+[11/20/26 17:50:31.438 WET 1F 376] Ethernet0/0 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:31.438 WET 20 376] Ethernet0/1 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:31.438 WET 21 376] Ethernet0/2 - Interface_up: True, Is_lan: True, Ip_enabled: True
+[11/20/26 17:50:31.438 WET 22 376] Received following DHCP options:
+[11/20/26 17:50:31.438 WET 23 376]         dns-server-ip   : 192.168.122.1
+[11/20/26 17:50:31.438 WET 24 376]         si-addr         : 192.168.122.1
+[11/20/26 17:50:31.438 WET 25 376]         hostname       : Router
+[11/20/26 17:50:31.438 WET 26 376] Autoinstall: resolved ipv4 for Et0/2 is 192.168.122.4
+[11/20/26 17:50:31.510 WET 27 376] autoinstall: ip address dhcp configured on Ethernet0/2
+[11/20/26 17:50:31.525 WET 28 376] Configured ip add dhcp client cisco-aabb.cc00.0620-Et0/2
+[11/20/26 17:50:31.525 WET 29 376] sdwan_mgmt_dhcp_enable:vrf namestring or mgmt idb is null 
+[11/20/26 17:50:41.525 WET 2A 376] pnp etherchan cleanup skipped on this platform
+[11/20/26 17:50:41.525 WET 2B 376] autoinstall: release other DHCP lease done
+[11/20/26 17:50:41.525 WET 2C 376] autoinstall:boot file retrieved from DHCPC is empty 
+[11/20/26 17:50:41.525 WET 2D 376] AUTOINSTALL: Trying file tftp://255.255.255.255/network-confg 
+[11/20/26 17:51:20.534 WET 2E 376] AUTOINSTALL: Trying file tftp://255.255.255.255/cisconet.cfg 
+[11/20/26 17:51:59.545 WET 2F 376] AUTOINSTALL: Trying file tftp://255.255.255.255/router-confg 
+[11/20/26 17:52:39.704 WET 30 376] AUTOINSTALL: Trying file tftp://255.255.255.255/router-confg 
+[11/20/26 17:53:19.717 WET 31 376] AUTOINSTALL: Trying file tftp://255.255.255.255/router-confg 
+[11/20/26 17:53:58.754 WET 32 376] 
+AUTOINSTALL: script execution not successful for Et0/2.
+[11/20/26 17:53:58.754 WET 33 376] autoinstall: process kill 5
+[11/20/26 17:53:58.754 WET 34 376] Autoinstall-Autoip: clear current config
+[11/20/26 17:53:58.754 WET 35 376] Autoinstall-Autoip: autoip params is NULL
+[11/20/26 17:54:51.436 WET 36 356] autoinstall: IPv6 module check no
+54 entries printed
+
+

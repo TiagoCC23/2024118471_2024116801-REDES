@@ -1,0 +1,101 @@
+*17:50:54.914 WET Fri Nov 20 2026
+
+
+Syslog logging: enabled (0 messages dropped, 2 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 45 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 45 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (4096 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+    Trap logging: level informational, 50 message lines logged
+        Logging Source-Interface:       VRF Name:
+    TLS Profiles: 
+
+Log Buffer (4096 bytes):
+or type vlan
+*Nov 20 17:50:14.588: %CRYPTO_ENGINE-5-CSDL_COMPLIANCE_ENFORCED: Cisco PSB security compliance is being enforced
+*Nov 20 17:50:14.802: %PNP-6-PNP_DISCOVERY_STARTED: PnP Discovery started
+*Nov 20 17:50:14.802: %PNP-6-PNP_GOOD_UDI_UPDATE: Good UDI [PID:Unix,VID:,SN:2048004] identified via (platform-registry)
+*Nov 20 17:50:14.803: %PNP-6-PNP_CDP_UPDATE: Device UDI [PID:Unix,VID:,SN:2048004] identified for CDP
+*Nov 20 17:50:14.807: %SYS-7-NVRAM_INIT_WAIT_TIME: Waited 0 seconds for NVRAM to be available
+*Nov 20 17:50:14.904: %SYS-5-RESTART: System restarted --
+Cisco IOS Software [IOSXE], Linux Software (X86_64BI_LINUX_L2-ADVENTERPRISEK9-M), Version 17.15.1, RELEASE SOFTWARE (fc4)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2024 by Cisco Systems, Inc.
+Compiled Sun 11-Aug-24 22:06 by mcpre
+*Nov 20 17:50:15.328: %LINK-5-UPDOWN: Interface Ethernet0/0, changed state to up
+*Nov 20 17:50:15.342: %LINK-5-UPDOWN: Interface Ethernet0/1, changed state to up
+*Nov 20 17:50:15.356: %LINK-5-UPDOWN: Interface Ethernet0/2, changed state to up
+*Nov 20 17:50:15.369: %LINK-5-UPDOWN: Interface Ethernet0/3, changed state to up
+*Nov 20 17:50:15.382: %LINK-5-UPDOWN: Interface Ethernet1/0, changed state to up
+*Nov 20 17:50:15.397: %LINK-5-UPDOWN: Interface Ethernet1/1, changed state to up
+*Nov 20 17:50:15.410: %LINK-5-UPDOWN: Interface Ethernet1/2, changed state to up
+*Nov 20 17:50:15.422: %LINK-5-UPDOWN: Interface Ethernet1/3, changed state to up
+*Nov 20 17:50:15.436: %LINK-5-UPDOWN: Interface Ethernet2/0, changed state to up
+*Nov 20 17:50:15.448: %LINK-5-UPDOWN: Interface Ethernet2/1, changed state to up
+*Nov 20 17:50:15.462: %LINK-5-UPDOWN: Interface Ethernet2/2, changed state to up
+*Nov 20 17:50:15.474: %LINK-5-UPDOWN: Interface Ethernet2/3, changed state to up
+*Nov 20 17:50:15.486: %LINK-5-UPDOWN: Interface Ethernet3/0, changed state to up
+*Nov 20 17:50:15.500: %LINK-5-UPDOWN: Interface Ethernet3/1, changed state to up
+*Nov 20 17:50:15.511: %LINK-5-UPDOWN: Interface Ethernet3/2, changed state to up
+*Nov 20 17:50:15.526: %LINK-5-UPDOWN: Interface Ethernet3/3, changed state to up
+*Nov 20 17:50:16.328: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/0, changed state to up
+*Nov 20 17:50:16.342: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/1, changed state to up
+*Nov 20 17:50:16.356: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/2, changed state to up
+*Nov 20 17:50:16.369: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet0/3, changed state to up
+*Nov 20 17:50:16.382: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/0, changed state to up
+*Nov 20 17:50:16.397: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/1, changed state to up
+*Nov 20 17:50:16.411: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/2, changed state to up
+*Nov 20 17:50:16.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet1/3, changed state to up
+*Nov 20 17:50:16.436: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/0, changed state to up
+*Nov 20 17:50:16.448: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/1, changed state to up
+*Nov 20 17:50:16.462: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/2, changed state to up
+*Nov 20 17:50:16.474: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet2/3, changed state to up
+*Nov 20 17:50:16.487: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/0, changed state to up
+*Nov 20 17:50:16.500: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/1, changed state to up
+*Nov 20 17:50:16.512: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/2, changed state to up
+*Nov 20 17:50:16.526: %LINEPROTO-5-UPDOWN: Line protocol on Interface Ethernet3/3, changed state to up
+*Nov 20 17:50:34.685: %PKI-6-SUDI_INFO: PKI: platform doesn't support sudi certificate
+*Nov 20 17:50:34.685: %PKI-6-SUDI_INFO: PKI: no sudi certificate is installed
+*Nov 20 17:50:34.685: %PKI-2-NON_AUTHORITATIVE_CLOCK: PKI functions can not be initialized until an authoritative time source, like NTP, can be obtained.
+
+
+Directory of unix:/pnp*
+
+Directory of unix:/pnp-info/
+
+No files in directory
+Directory of unix:/pnp-tech/
+
+2887031  -rw-        5059  Nov 20 2026 17:50:54 +00:00  pnp-tech-time
+2147479552 bytes total (2147479552 bytes free)
+
+Directory of unix:/*bin*
+
+No such file
+
+2147479552 bytes total (2147479552 bytes free)
+
+Directory of unix:/*SSA*
+
+No such file
+
+2147479552 bytes total (2147479552 bytes free)
+
+Directory of unix:/*pkg*
+
+No such file
+
+2147479552 bytes total (2147479552 bytes free)
