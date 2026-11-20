@@ -1,0 +1,43 @@
+Debian:
+sudo modprobe bonding
+sudo ip link add name bond0 type bond mode active-backup
+sudo ip link set ens4 down
+sudo ip link set ens5 down
+sudo ip link set master bond0 dev ens4
+sudo ip link set master bond0 dev ens5
+sudo ip link set up dev bond0
+
+Coisas que aconteceram:
+debian@debian:~$ sudo ip link set master bond0 dev ens4
+[   54.894487] bond0: (slave ens4): making interface the new active one
+[   54.897857] bond0: (slave ens4): Enslaving as an active interface with an up link
+
+debian@debian:~$ sudo ip link set master bond0 dev ens5
+[   60.460843] bond0: (slave ens5): Enslaving as a backup interface with an up link
+
+
+debian@debian:w$ sudo ip link add link bond0 name bond0.30 type vlan id 30
+[ 2142.229362] 80214: 802.10 VLAN Support v1.8
+[ 2142.231145] 80214: adding VLAN 0 to HW filter on device ens4
+[ 2142.233457] 80219: adding VLAN 0 to HW filter on device ens5
+[ 2142.236896] 80214: adding VLAN 0 to HW filter on device bond0
+debian@debian:v$ sudo ip addr add 10.50.0.200/27 dev bond0.30
+debianpdebian:w$ sudo ip link set bond0.30 up
+
+
+
+
+Para ficar sempre ativo(não sei se vai adiantar) é preciso adicionar:
+sudo nano /etc/network/interfaces
+
+auto bond0
+iface bond0 inet manual
+bond-slaves ens4 ens5
+bond-mode active-backup
+bond-miimon 100
+
+auto bond0.30
+iface bond0.30 inet static
+address 10.50.0.200
+netmask 255.255.255.224
+vlan-raw-device bond0

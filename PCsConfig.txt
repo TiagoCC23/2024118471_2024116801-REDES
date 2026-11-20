@@ -1,0 +1,34 @@
+PC1:
+address 10.50.0.40
+netmask 255.255.255.192
+gatewau 10.50.0.191
+
+
+PC2:
+address 10.50.0.10
+netmask 255.255.255.128
+gatewau 10.50.0.127
+
+
+PC3:
+address 10.50.0.210
+netmask 255.255.255.224
+gatewau 10.50.0.223
+
+
+PC4:
+address 10.50.0.41
+netmask 255.255.255.192
+gatewau 10.50.0.191
+
+
+PC5:
+address 10.50.0.11
+netmask 255.255.255.128
+gatewau 10.50.0.127
+
+
+Management:
+address 10.50.0.224
+netmask 255.255.255.240
+gatewau 10.50.0.239
