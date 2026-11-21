@@ -38,7 +38,8 @@ switchport mode trunk
 switchport trunk native vlan 99
 switchport nonegotiate
 
-Nos CD1 e 2 é modo trunk:
+Nos CD1 e 2 é modo trunk em todas as port channels:
 switchport trunk encapsulation dot1q
 switchport mode trunk
 switchport nonegotiate
+switchport trunk allowed vlan 10,20,30,99
