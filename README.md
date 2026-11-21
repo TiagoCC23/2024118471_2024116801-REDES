@@ -18,6 +18,10 @@ Recomeço **do zero**: nada do trabalho anterior é reaproveitado (projeto GNS3,
 
 ## 1. Topologia (mapa de ligações extraído do `.gns3`)
 
+![Topologia da Rede](topologia.png)
+
+*Figura 1 — Topologia da infraestrutura de rede definida no enunciado.*
+
 | Ligação | Extremo A | Extremo B | Tipo |
 |---|---|---|---|
 | CD1 ↔ Edge | CD1 e0/0 | Edge e0/0 | L3 `10.50.15.0/30` |
