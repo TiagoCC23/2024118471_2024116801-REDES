@@ -125,8 +125,8 @@ A seguinte checklist permite acompanhar o desenvolvimento do trabalho e identifi
 - [ ] Confirmar o funcionamento do LACP.
 - [x] Configurar PortFast.
 - [ ] Configurar BPDU Guard.
-- [ ] Configurar Rapid-PVST+.
-- [ ] Definir CD1 e CD2 como Root Primary e Root Secondary, de acordo com as VLANs.
+- [x] Configurar Rapid-PVST+ (F1-08 #14).
+- [x] Definir CD1 e CD2 como Root Primary e Root Secondary, de acordo com as VLANs (F1-08 #14).
 - [ ] Validar o funcionamento do Spanning Tree.
 
 ### 6.3. Planeamento do endereçamento
