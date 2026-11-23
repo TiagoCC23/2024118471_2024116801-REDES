@@ -8,9 +8,9 @@
 # Static config for eth0
 auto eth0
 iface eth0 inet static
-	address 10.50.0.41
+	address 10.50.0.141
 	netmask 255.255.255.192
-	gateway 10.50.0.191
+	gateway 10.50.0.129
 #	up echo nameserver 192.168.0.1 > /etc/resolv.conf
 
 # DHCP config for eth0
